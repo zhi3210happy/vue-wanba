@@ -1,0 +1,459 @@
+html,
+body,
+a,
+ul,
+li,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  font-family: "微软雅黑";
+}
+img {
+  border: none;
+}
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #EFEFEF;
+  position: relative;
+}
+.Body {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  /*头部开始*/
+  /*头部结束*/
+  /*订单开始*/
+  /*订单结束*/
+}
+.Body .yi-header {
+  height: 2.8rem;
+  padding: 0.001rem;
+  width: 100%;
+  background: url(../images/yi-bejing.png) no-repeat 0 0;
+  background-size: cover!important;
+}
+.Body .yi-header .touxiang {
+  height: 1.7rem;
+  width: 1.7rem;
+  background-color: #EA9F9E;
+  margin: 0.25rem auto 0.15rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+}
+.Body .yi-header .touxiang .tou-2 {
+  height: 1.4rem;
+  width: 1.4rem;
+  background-color: #EB807F;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+.Body .yi-header .touxiang .tou-3 {
+  height: 1.2rem;
+  width: 1.2rem;
+  background-color: #EE5251;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+.Body .yi-header .touxiang #yuan {
+  height: 1rem;
+  width: 1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.Body .yi-header .touxiang #yuan img {
+  width: 100%;
+}
+.Body .yi-header > span {
+  display: block;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+.Body #dingdan {
+  width: 100%;
+  height: 1.7rem;
+  padding: 0.1rem 0.25rem;
+  background-color: #FCFCFC;
+  box-sizing: border-box;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  border-radius: 0.1rem;
+  margin-top: 0.15rem;
+}
+.Body #dingdan .top {
+  height: 0.5rem;
+  width: 100%;
+  line-height: 0.5rem;
+  font-size: 14px;
+}
+.Body #dingdan .top b {
+  display: inline-block;
+  float: left;
+}
+.Body #dingdan .top div {
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background: red;
+  float: left;
+  margin-top: 0.2rem;
+  margin-left: 0.15rem;
+}
+.Body #dingdan #uls {
+  width: 100%;
+  height: 0.65rem;
+  box-sizing: border-box;
+  padding: 0 ;
+  margin-top: 0.2rem;
+}
+.Body #dingdan #uls li {
+  height: 100%;
+  width: 1.6rem;
+  float: left;
+  margin-left: 0.2rem;
+  box-sizing: border-box;
+  border: 1px solid #DDDDDD;
+}
+.Body #dingdan #uls li:first-child {
+  margin: 0;
+}
+.Body #dingdan #uls li a {
+  height: 100%;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 0 0.1rem;
+  color: #000;
+  position: relative;
+}
+.Body #dingdan #uls li a img {
+  display: block;
+  height: 0.45rem;
+  width: 0.45rem;
+  margin-top: 0.07rem;
+}
+.Body #dingdan #uls li a span {
+  display: block;
+  position: absolute;
+  width: 1.2rem;
+  top: 0;
+  left: 0.45rem;
+}
+.Body #dingdan ul {
+  width: 100%;
+  height: 1rem;
+  box-sizing: border-box;
+  padding: 0 ;
+}
+.Body #dingdan ul li {
+  height: 100%;
+  width: 1.5rem;
+  float: left;
+  margin-left: 0.333333rem;
+  text-align: center;
+}
+.Body #dingdan ul li:first-child {
+  margin: 0;
+}
+.Body #dingdan ul li .lists {
+  height: 0.45rem;
+  width: 100%;
+  display: block;
+  font-size: 12px;
+  color: #000;
+  font-weight: bold;
+}
+.Body #dingdan ul li a {
+  height: 0.45rem;
+  width: 0.45rem;
+  display: block;
+  margin: 0 auto;
+}
+.Body #dingdan ul li a img {
+  height: 100%;
+  display: block;
+}
+.Body #dingdan ul li span {
+  width: 100%;
+  display: block;
+  float: left;
+  margin: 0.1rem auto;
+  font-size: 12px;
+}
+@media screen and (max-width: 320px) {
+  #uls li a span {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+/*猜你喜欢开始*/
+#likes {
+  width: 100%;
+  height: auto;
+  padding: 0.1rem 0.25rem 1.35rem;
+  background-color: #FCFCFC;
+  box-sizing: border-box;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  border-radius: 0.1rem;
+  margin-top: 0.15rem;
+  overflow: hidden;
+}
+#likes .top {
+  height: 0.5rem;
+  width: 100%;
+  line-height: 0.5rem;
+  font-size: 14px;
+}
+#likes .top b {
+  display: inline-block;
+  float: left;
+}
+#likes .top div {
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background: red;
+  float: left;
+  margin-top: 0.2rem;
+  margin-left: 0.15rem;
+}
+#likes .cont {
+  width: 100%;
+  height: 2.2rem;
+}
+#likes .cont li {
+  height: 2.2rem;
+  width: 100%;
+  margin-bottom: .3rem;
+  background: #fff;
+  position: relative;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  border-radius: 0.2rem;
+  -webkit-box-shadow: 0 5px 25px 0px #eee;
+  -moz-box-shadow: 0 5px 25px 0px #eee;
+  box-shadow: 0 5px 25px 0px #eee;
+}
+#likes .cont li > .left {
+  float: left;
+  width: 32.19373219%;
+  height: 100%;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  border-radius: 0.2rem;
+}
+#likes .cont li > .left a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#likes .cont li > .right {
+  float: right;
+  height: 100%;
+  width: 65.52706553%;
+}
+#likes .cont li > .right #top {
+  height: 1.3rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 3.5rem;
+}
+#likes .cont li > .right #top h5 {
+  font-size: 12px;
+  padding: 0.15rem 0;
+}
+#likes .cont li > .right #top p {
+  width: 100%;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  font-size: 10px;
+  color: #2C2C2C;
+}
+#likes .cont li > .right .bottom {
+  width: 100%;
+  height: .56rem;
+  padding: 10px 0;
+}
+#likes .cont li > .right .bottom .left {
+  float: left;
+  width: 35%;
+  background: #FB9318;
+  text-align: center;
+  line-height: .56rem;
+  font-size: 10px;
+  color: #fff;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#likes .cont li > .right .bottom .left span {
+  font-weight: bold;
+  font-size: 14px;
+}
+#likes .cont li > .right .bottom .right {
+  width: 65%;
+  height: 100%;
+  float: right;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 0.1rem;
+  margin-top: -0.1rem;
+}
+#likes .cont li > .right .bottom .right a {
+  float: left;
+  padding: 0;
+  width: 50%;
+  font-size: 10px;
+  color: #BABABA;
+}
+#likes .cont li > .right .bottom .right span {
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #C4C4C4;
+  border: 1px solid #E7E7E7;
+  font-size: 10px;
+  padding: 1px;
+}
+#likes .cont li > .right .bottom .right span:nth-of-type(2) {
+  margin-left: 0.35rem;
+}
+#likes .cont li > .right .bottom .right a img {
+  height: 10px;
+  margin-right: 2px;
+}
+@media screen and (max-width: 320px) {
+  .cont li {
+    height: 2.3rem!important;
+  }
+  .cont li > .right .bottom {
+    position: relative!important;
+  }
+  .cont li > .right .bottom p {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 5px;
+    position: absolute;
+    top: 0;
+  }
+  .cont li > .right .bottom .left {
+    width: 40%!important;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+    position: absolute;
+    left: -0.2rem !important;
+  }
+  .cont li > .right .bottom .right {
+    width: 70% !important;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+    position: absolute;
+    right: -0.1rem !important;
+  }
+}
+/*猜你喜欢结束*/
+/*底部开始*/
+.yi-footer {
+  height: 1rem;
+  width: 100%;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.yi-footer ul {
+  height: 100%;
+  width: 100%;
+}
+.yi-footer ul li {
+  height: 100%;
+  width: 20%;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+}
+.yi-footer ul li a {
+  display: block;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin: 0.1rem auto 0;
+  background-size: cover!important;
+}
+.yi-footer ul li a img {
+  height: 100%;
+  display: block;
+}
+.yi-footer ul li span {
+  font-size: 12px;
+  display: block;
+  margin: 0;
+  color: #666665;
+}
+/*底部结束*/

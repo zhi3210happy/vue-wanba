@@ -1,0 +1,366 @@
+*{
+	margin: 0;
+	padding:0;
+	list-style:none;
+	font-family:"微软雅黑";
+	box-sizing:border-box;	
+}
+a{
+	text-decoration: none;
+	-webkit-tap-hightlight-color:rgba(0,0,0,0);
+}
+img{
+	border: 0;
+}
+body{
+	background: #EFEFEF;
+}
+/*开始*/
+
+section{
+	height: 100%;	
+}
+/*导航开始*/
+.banner-jp {
+  width: 100%;
+  height:0.9rem;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+  padding: 0.01rem;
+  background: #fff;
+}
+.banner-jp nav {
+  width: 100%;
+  height: 0.88rem;
+  padding: 0 0.25rem;
+  display: block;
+  text-align: center;
+}
+.banner-jp nav .back {
+  width: 0.48rem;
+  height: 0.48rem;
+  border-radius: 50%;
+  -webkit-background-size: 0.48rem !important;
+  background-size: 0.48rem !important;
+  margin: 0.225rem 0;
+  display: block;
+  float: left;
+}
+.banner-jp nav .order {
+  height: 0.88rem;
+  margin-top: 0.25rem;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+.banner-jp nav .order h1 {
+  width: 100%;
+  font-size: 10px;
+  display: block;
+  line-height: 0.24rem;
+  color: #000;
+}
+.banner-jp nav .order h1 img{
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+/*导航结束*/
+/*航班选择开始 */
+.jp-hangban{
+  width: 7.05rem;
+  height: 1.33rem;
+  margin: 0 auto;
+  background: #4DBBFF;
+  margin-top: 0.2rem;
+  border-radius: 0.1rem;
+}
+.hangban-left{
+  width: 5.42rem;
+  height: 1.33rem;
+  float: left;
+  border-radius: 0.1rem;
+  border-right: 1px dashed #BAE4FE;
+}
+.hangban-left h1{
+  font-size: 12px;
+  margin-top: 0.15rem;
+  margin-left:0.2rem;
+  color:#fff;
+} 
+.hangban-left h1 span{
+  margin-left:0.2rem;
+}
+.hb-getup{
+  width: 100%;
+  height: 0.7rem;  
+}
+.hb-qifei{
+  width: 1.3rem;
+  height: 0.8rem;
+  float: left;
+}
+.hb-qifei .fei-img{
+  width: 0.35rem;
+  height: 0.3rem;
+  display: block;
+  float: left;
+  margin-left: 0.07rem;
+  margin-top: 0.2rem;
+}
+.hb-qifei .luo-img{
+  width: 0.35rem;
+  height: 0.4rem;
+  display: block;
+  float: left;
+  margin-left: 0.07rem;
+  margin-top: 0.1rem;
+}
+.hb-qifei .luo-img img{
+  height: 100%;
+}
+.hb-wusu{
+  width: 0.8rem;
+  height: 0.7rem;
+  float: left;
+  margin-left: 0.05rem;
+}
+.hb-wusu h2{
+  font-size: 12px;
+  color: #fff;
+}
+.hb-wusu span{
+  font-size: 16px;
+  display: block;
+  color: #fff;
+}
+
+.hb-data{
+  width: 2rem;
+  float: left;
+  margin-top: 0.1rem;
+  margin-left: 0.2rem;
+}
+.hb-data h1{
+  font-size: 16px;
+  color: #fff;
+}
+
+.hb-qifei1{
+  width: 1.3rem;
+  height: 0.8rem;
+  float: right;
+  margin-right: 0.3rem;
+}
+.hb-qifei1 .fei-img{
+  width: 0.35rem;
+  height: 0.3rem;
+  display: block;
+  float: left;
+  margin-left: 0.07rem;
+  margin-top: 0.2rem;
+}
+.hb-qifei1 .luo-img{
+  width: 0.35rem;
+  height: 0.4rem;
+  display: block;
+  float: left;
+  margin-left: 0.07rem;
+  margin-top: 0.1rem;
+}
+.hb-qifei1 .luo-img img{
+  height: 100%;
+}
+.hb-qifei1 .hb-wusu{
+  width: 0.8rem;
+  height: 0.7rem;
+  float: left;
+  margin-left: 0.05rem;
+}
+.hb-qifei1 .hb-wusu h2{
+  font-size: 12px;
+  color: #fff;
+}
+.hb-qifei1 .hb-wusu span{
+  font-size: 16px;
+  display: block;
+  color: #fff;
+}
+
+
+.hangban-right{
+  width: 1.63rem;
+  height: 1.33rem;
+  float: right;
+}
+.hangban-right h3{
+  font-size: 12px;
+  text-align:center;
+  margin-top: 0.15rem;
+  margin-left: -0.3rem;
+  color:#fff;
+}
+.hangban-right h2{
+  font-size: 12px;
+  text-align:center;
+  margin-left: -0.3rem;
+  margin-top:-0.05rem;
+  color:#fff;
+}
+.hangban-right h1{
+  font-size: 14px;
+  text-align:center;
+  margin-left: -0.2rem;
+  margin-top:0.06rem;
+  color:#fff;
+}
+/*航班选择结束 */
+
+/*定位开始*/
+  .city-dingwei{
+    width: 100%;
+    height: 1rem; 
+    margin-top: 0.1rem;
+  }
+  .city-dwztk{
+    width: 7.05rem;
+    height: 1rem;
+    margin: 0 auto;
+  }
+  .city-dwzt{
+    height: 0.55rem;
+  }
+  .city-dwzt h2{
+    font-size: 18px;
+    float: left;
+    line-height: 0.55rem;
+    font-weight: normal;
+  }
+  .city-dwzt img{
+    float: left;
+    margin-top: 0.3rem;
+    margin-left: 0.05rem;
+  }
+  .city-dwztk h3{
+    font-size: 13px;
+    float: left;
+    margin-top: -0.1rem;
+    font-weight: normal;
+    color:#306AFF;
+
+  }
+  .city-dwztk h3 span{
+    color:#30CCFF;
+  }
+/*定位结束*/
+
+/*个人信息开始*/
+.new-name{
+  width: 7.05rem;
+  height: 3.04rem;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 0.1rem;
+}
+.name-xx{
+  width: 100%;
+  height: 0.8rem;
+  margin-top: 0.2rem;
+  line-height: 0.4rem;
+}
+.name-xx span{
+  font-size: 15px;
+  color: #000;
+  margin-left: 0.2rem;
+}
+.name-xx input{
+  width: 4.7rem;
+  height: 0.58rem;
+  border: 1px solid #ccc;
+  border-radius: 0.1rem;
+  outline:none;
+  margin-left: 0.4rem; 
+  padding-left: 0.15rem;
+}
+/*个人信息结束*/
+/*添加开始*/
+.news-tjks{
+  width: 7.05rem;
+  height: 0.85rem;
+  margin: 0 auto;
+  line-height: 0.85rem;
+  border-bottom: 1px dashed  #A9A9A9;
+}
+.news-tjks span{
+  font-size: 15px;
+  color:#000;
+  float: left;
+}
+.news-tjks .new-jia{
+  width: 0.36rem;
+  height: 0.36rem;
+  display: block;
+  float: left;
+  margin-left: 0.2rem;
+  margin-top: 0.25rem;
+}
+.news-tjks img{
+  width: 100%;
+}
+
+.news-tjks2{
+  width: 7.05rem;
+  height: 1.18rem;
+  margin: 0 auto;
+  padding-top: 0.2rem;
+  border-bottom: 1px dashed  #A9A9A9;
+}
+.news-tjks2 span{
+  font-size: 15px;
+  color:#000;
+  float: left;
+}
+.news-tjks2 .new-jia{
+  width: 0.36rem;
+  height: 0.36rem;
+  display: block;
+  float: left;
+  margin-left: 0.2rem;
+  margin-top: 0.25rem;
+}
+/*添加结束 */
+
+/*确认订单开始*/
+  .new-qrdd{
+    width: 7.05rem;
+    height: 1.05rem;
+    margin: 0 auto;
+    background: #00C3C3;
+    margin-top: 0.3rem;
+    border-radius: 0.5rem;
+    position:relative;
+    line-height: 1.05rem;
+    color: #fff;
+    text-align: center; 
+    font-size: 20px;
+  }
+  .prdd-right{
+    width: 3.39rem;
+    height: 1.05rem;
+    background:#FFCC30;
+    float: right;
+    border-radius: 0.5rem;
+    line-height: 1.05rem;
+    color: #fff;
+    text-align: center; 
+    font-size: 15px;
+  }
+  .prdd-xian{
+    width: 0.4rem;
+    height: 1.05rem;
+    background: #FFCC30;
+    position: absolute;
+    right: 3rem;
+    bottom: 0;
+  }
+/*确认订单结束*/

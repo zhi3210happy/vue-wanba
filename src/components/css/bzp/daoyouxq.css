@@ -1,0 +1,121 @@
+/*导游详情*/
+.tj-banner{
+    width:100%;
+    height:3.1rem;
+}
+.tj-banner img{
+    height:100%;
+}
+.personal-qm{
+    width:100%;
+    height:1.5rem;
+    border-top: 0.04px solid #EFEFEF;
+    background: #fff;
+    padding-left:0.24rem;
+    display: flex;
+    align-items: center;
+}
+.personal-qm>div{
+    width:100%;
+    height:1rem;
+    display: flex;
+}
+.personal-qm>div img{
+    height:1rem;
+    margin-right: 0.26rem;
+}
+.personal-qm>div .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.personal-qm>div .right span:first-child{
+    color: #191919;
+    font-size:13px;
+    font-weight: bold;
+}
+.personal-qm>div .right span:last-child{
+    font-size: 12px;
+    color: #2d2d2d;
+}
+.personal-intro{
+    width:7rem;
+    height:auto;
+    padding: 0.27rem 0.2rem;
+    box-sizing: border-box;
+    border-radius: 0.12rem;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.personal-intro>div{
+    display: flex;
+    color: #2d2d2d;
+    font-size: 12px;
+    margin-bottom:0.2rem;
+}
+.personal-intro>div:last-child{
+    margin-bottom: 0;
+}
+.personal-intro>div span{
+    color: #2d2d2d;
+    font-size: 12px;
+}
+.personal-intro>div span:first-child{
+    flex-basis: 40%;
+}
+.personal-intro>div span:last-child{
+    flex-basis: 60%;
+}
+.personal-intro h3{
+    color: #191919;
+    font-size: 13px;
+    line-height: 2em;;
+}
+.personal-intro .xq{
+    line-height: 1.8em;
+}
+.drtj-list{
+    width: 6.6rem;
+    height: auto;
+    border-radius: 0.12rem;
+    background: #fff;
+    margin: 0 auto;
+    padding: 0.2rem;
+    padding-bottom: 0;
+
+}
+.drtj-list .dr1 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+#title-img img{
+    height:0.73rem;
+}
+
+.drtj-list .dr1 .photo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+}
+.drtj-list .dr1 .photo.sheying{
+    flex-wrap:wrap;
+}
+.drtj-list .dr1 .photo.sheying a img{
+    width:2.12rem;
+    height: 2.12rem;
+}
+.tdxc{
+    width:100%;
+    margin: 0.4rem 0 0.2rem 0;
+    font-size: 12px;
+    color: #191919;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+}

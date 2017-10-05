@@ -1,0 +1,121 @@
+
+/*shanping*/
+	.shanping{
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 9999999999999999999;
+	}
+	.shanping .sp{
+		width: 100%;
+		height: 100%;
+		background-color: #ECEBF1;
+	}
+	.shanping .sp-1{
+		position: relative;
+	}
+
+	.shanping .sp-1 img{
+		display: block;
+		width: 100%;
+		font-size: 0px;
+		position: absolute;
+		top:0;
+		left: 0;
+	}
+	.shanping .sp-2{
+		line-height: 0px;
+		width: 5.00rem;
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		top: 1.5rem;
+	}
+	.shanping .swiper-pagination{
+		bottom: 4.58rem;
+		/*opacity: 0;*/
+	}
+
+	.shanping .swiper-pagination-bullet{
+		width: 0.12rem;
+		height: 0.12rem;
+		
+		background-color: #00C3C3;
+		opacity: 1;
+	}
+	.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+		margin:0 0.09rem;
+	}
+	.shanping .swiper-pagination-bullet-active{
+		width: 0.24rem;
+		border-radius:0.12rem;
+		background-color:#FD9F90; 
+	}
+	
+
+	.shanping .sp-h{
+		width: 100%;
+		height:0.6rem;
+		position: absolute;
+		bottom: 1.82rem;
+		text-align: center;
+		left: 0px;
+		line-height: 0.6rem;
+	}
+	.shanping .sp-h span{
+		color: #141318;
+		font-weight: 100;
+		display: block;
+		height: 100%;
+		font-size: 0.6rem;
+	}
+
+
+	.shanping .tzs{
+		width: 2.58rem;
+		position: absolute;
+		bottom: 4.58rem;
+		right: 0;
+		left: 0;
+		margin:auto;
+		text-align:center;
+		z-index: 999999999999999999;
+		line-height: 0.57rem;
+		/*-webkit-border-radius: 0.05rem;
+		border-radius: 0.28rem;*/
+		/*font-size: 12px;*/
+		/*border:1px solid #4C4C4C;*/
+		/*background: red;*/
+	}
+	.shanping .tzs a{
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		/*background: red;*/
+
+		/*font-weight: 100;*/
+	}
+	.shanping .tzs a img{
+		width: 100%;
+	}
+	.sp-pb{
+		position: relative;
+	}
+
+	.shanping .tzz{
+		width: 1.11rem;
+		height: 0.55rem;
+		position: absolute;
+		top:0.48rem;
+		right: 0.5rem;
+		background-color:#EE5251;
+		text-align: center;
+		border-radius:0.27rem;
+		line-height: 0.55rem;
+	}
+	.shanping .tzz a{
+		font-size: 14px;
+		color:#fff;
+	}
+

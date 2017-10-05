@@ -1,0 +1,794 @@
+
+
+i{
+	font-style: normal;
+}
+
+#wb_tabs{
+	width: 94.06%;
+	height: 0.88rem;
+	position: fixed;
+	top:1px;
+	background:#fff;
+	border-bottom:1px solid #EDEDED;
+	padding: 0 0.25rem;
+	z-index: 9999;
+}
+#wb_tabs .wb_tcenter{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background:url('../../images/ycw/topas1.png') no-repeat center 0; 
+	-webkit-background-size:100%;
+	background-size:100%;
+	position: relative;
+}
+/*42*42*/
+#wb_tabs .wb_tcenter a{
+	display: inline-block;
+}
+#wb_tabs .wb_tcenter a:nth-child(1){
+	height: 0.88rem;
+	float: left;
+	line-height: 1.1rem;
+	vertical-align:middle;
+	position: relative;
+	z-index: 999999;
+}
+
+#wb_tabs .wb_tcenter a:nth-child(1) img{
+	width: 0.42rem;
+	
+}
+#wb_tabs .wb_tcenter .wb_acen{
+    position: absolute;
+    top: .125rem;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 18px;
+    color: #000;
+}
+.wb_acen .wb_acem{
+	/*padding: 0.05rem;*/
+	-webkit-text-transform:uppercase;
+	text-transform:uppercase;
+	line-height: .309375rem;
+}
+.wb_acem .wb_zm{
+	font-size: 10px;
+	color:#1C1C1C;
+	/*line-height: 0.88rem;*/
+}
+.wb_acem .wb_hz{
+	font-size: 12px;
+	color:#1C1C1C;
+}
+.wb_hz .wb_cez{
+	font-size:16px; 
+	margin: 0 0.15rem
+}
+.wb_hz .wb_led{
+	line-height: 100%;
+}
+.wb_hz .wb_led img{
+	vertical-align: middle;	
+}
+.wb_hz .wb_rid{
+	line-height: 100%;
+}
+.wb_hz .wb_rid img{
+	vertical-align: middle;	
+}
+#wb_tabs .wb_tcenter a:nth-child(3){
+	height: 0.88rem;
+	float: right;
+	line-height: 1.1rem;
+	vertical-align:middle;
+	position: relative;
+	z-index: 999999;
+}
+#wb_tabs .wb_tcenter a:nth-child(3) img{
+	width: 0.42rem;
+}
+
+
+
+/*banner*/
+
+
+section{
+	width: 100%;
+	height: auto;
+	margin-top: 0.88rem;
+}
+section .fix{
+	width: 94%;
+}
+
+.banner{
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+
+}
+
+
+.banner a{
+	display: block;
+	height: 100%;
+	clear: both;
+	font-size: 0;
+}
+.banner a:after{
+
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.banner img{
+	width: 100%;
+	
+}
+
+
+
+
+/*马尔代夫*/
+.travel-listone{
+	width: 100%;
+	height: auto;
+	padding: 0  0.27rem;
+	border-radius: 0.14rem;
+	background: #fff;
+}
+.travel-listone h1{
+	font-size: 16px;
+	padding-top: 0.3rem;
+	padding-bottom: 1.37rem;
+}
+
+.travel-listone .listone .ps{
+    font-size: 14px;
+}
+
+.travel-listone .listone .ps i{
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.travel-listone .listone .cheap{
+	width: 100%;
+   display: flex;
+   align-items:center;
+   padding: 0.18rem 0;
+}
+.travel-listone .listone .cheap p{
+	width: 1.1rem;
+	height: 0.4rem;
+	background: #FD1440;
+	line-height: 0.4rem;
+	font-size: 10px;
+	text-align: center;
+	border-radius: 0.04rem;
+	color: #fff;
+}
+.travel-listone .listone .cheap span{
+	font-size: 14px;
+}
+.travel-listone .listone .cheap p:last-child{
+    background: #14B3FD; 
+    color: #fff;
+    margin-left: 0.08rem;
+
+}
+.travel-listone .listone .lin{
+   display: flex;
+   align-items:center;
+   padding: 0 0 0.18rem 0;
+   width: 100%;
+}
+.travel-listone .listone .lin p{
+	width: 0.9rem;
+	height: 0.4rem;
+	background: #FD1440;
+	line-height: 0.4rem;
+	font-size: 10px;
+	text-align: center;
+	border-radius: 0.04rem;
+	color: #fff;
+}
+
+.travel-listone .listone .lin p:last-child{
+    background: #14B3FD; 
+    color: #fff;
+    margin-left: 0.08rem;
+
+}
+.travel-listone .listone .lin>span{
+	font-size: 14px;
+}
+.travel-listone .listone .lin .second{
+    background: #14B3FD; 
+    color: #fff;
+    margin-left: 0.08rem;
+
+}
+
+.travel-listone .listwo{
+	width: 100%;
+	height: auto;
+	padding: 0 0 0.5rem 0; 
+	display: flex;
+	justify-content:space-between;
+}
+
+.travel-listone .listwo span:nth-child(1){
+     font-size: 14px;
+     font-weight: bold;
+     line-height: 0.52rem;
+     vertical-align: bottom;
+}
+.travel-listone .listwo span:nth-child(2){
+    display: inline-block;
+	width:1.74rem;
+	height: 0.52rem;
+	background: #FB9138;
+	font-size: 10px;
+	line-height: 0.52rem;
+	text-align: center;
+	-webkit-text-size-adjust:none;
+}
+
+.travel-listone .listwo .last i{
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+}
+@media screen and (max-width:320px) {
+	 .travel-listone .listwo .last i{
+	font-weight: bold;
+	font-size: 12px;
+	color: #fff;
+ }
+}
+
+/*日期*/
+.travel-listtwo{
+	width: 100%;
+	height: auto;
+	padding: 0  0.27rem;
+	border-radius: 0.14rem;
+	background: #fff;
+	margin-top: 0.1rem;
+}
+ .listtwo-top{
+	width: 100%;
+	height: auto;
+}
+
+.listtwo-top h1{
+	text-transform: uppercase;
+	padding-top: 0.3rem;
+}
+.listtwo-top h1 i{
+	color: #7E7F7F;
+}
+
+ .listtwo-top div{
+	display: flex;
+	align-items:center;
+
+}
+ .listtwo-top div h2{
+	font-weight: bold;
+	font-size: 14px;
+}
+.listtwo-top div h2 img{
+	height: 0.12rem;
+	margin-left: 0.1rem;
+}
+
+.travel-listtwo .listtwo-bottom{
+	padding-top: 0.2rem;
+	padding-bottom: 0.3rem;
+	width: 100%;
+	height: auto;
+}
+
+.travel-listtwo .listtwo-bottom .bottoms{
+	padding-right: 0.28rem;
+	display: flex;
+	justify-content:space-between;
+}
+.travel-listtwo .listtwo-bottom .bottomss{
+	padding-right: 0.28rem;
+	display: flex;
+	justify-content:center;
+}
+.travel-listtwo .listtwo-bottom .bottomss li{
+	width: 1.51rem;
+	padding: 0.05rem 0;
+	margin-top: 0.16rem;
+	margin-right: 0.16rem;
+	border: 1px solid #FA1D1D;
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+
+.travel-listtwo .listtwo-bottom .bottoms li{
+	width: 1.51rem;
+	padding: 0.05rem 0;
+	border: 1px solid #FA1D1D;
+	margin-top: 0.16rem;
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+.travel-listtwo .listtwo-bottom .bottoms li span{
+	color: #212121;
+	font-size: 10px;
+}
+.travel-listtwo .listtwo-bottom .bottomss li span{
+	font-size: 10px;
+	color: #212121;
+}
+.travel-listtwo .listtwo-bottom .bottomss li span:nth-child(2){
+	font-size: 10px;
+	color: #212121;
+	margin-top: 0.05rem;
+}
+.travel-listtwo .listtwo-bottom .bottoms li span:nth-child(2){
+	font-size: 10px;
+	color: #212121;
+	margin-top: 0.05rem;
+}
+
+
+/*游客*/
+.travel-listhree{
+  	width: 100%;
+	height: auto;
+	padding: 0  0.27rem 0.36rem 0.27rem;
+	border-radius: 0.14rem;
+	background: #fff;
+	margin-top: 0.1rem;
+}
+
+.travel-listhree .listtwo-top{
+	width: 100%;
+	height: auto;
+}
+
+.travel-listhree .listtwo-top h1{
+	text-transform: uppercase;
+	padding-top: 0.3rem;
+}
+.travel-listhree .listtwo-top h1 i{
+	color: #7E7F7F;
+}
+
+.travel-listhree .listtwo-top div{
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+
+}
+.travel-listhree .listtwo-top div h2{
+	font-weight: bold;
+}
+.travel-listhree .listtwo-top div h2 span{
+	font-size: 14px;
+}
+.travel-listhree .listtwo-top div p{
+	font-size: 14px;
+	padding-right: 0.43rem;
+}
+.travel-listhree .listtwo-top div h2 span:nth-child(2){
+	font-weight: normal;
+}
+.travel-listhree .listtwo-top div h2 img{
+	height: 0.12rem;
+	margin-left: 0.1rem;
+}
+
+@media screen and (max-width: 320px){
+.travel-listtwo .listtwo-top div h2{
+	font-weight: bold;
+	font-size: 14px;
+}
+.travel-listhree .listtwo-top div p{
+	font-size: 12px;
+}
+.travel-listhree .listtwo-top div h2 span{
+	font-weight: bold;
+	font-size: 14px;
+}
+}
+
+.travel-listhree .listhree-bottom{
+	width: 100%;
+	height: auto;
+	display: flex;
+	padding-top: 0.24rem;
+}
+.travel-listhree .listhree-bottom .content{
+	display: flex;
+	align-items:center;
+}
+.travel-listhree .listhree-bottom .content:last-child{
+
+	margin-left: 1.14rem;
+}
+
+.travel-listhree .listhree-bottom .content span{
+	font-size: 14px;
+	color: #181818;
+}
+.travel-listhree .listhree-bottom .content img{
+	height: 0.2rem;
+}
+/*品牌*/
+.produce{
+  width: 100%;
+  height: auto;
+  padding: 0 0.27rem;
+  margin-top: 0.1rem;
+  background: #fff;
+}
+.produce p{
+	font-size: 12px;
+	padding: 0.2rem 0;
+}
+
+
+/*安排行程*/
+
+.arrang{
+  width: 100%;
+  height: auto;
+  padding: 0 0.27rem;
+  margin-top: 0.1rem;
+  background: #fff;
+  border-radius: 0.14rem;
+}
+.arrang .arrang-cheng{
+	display: flex;
+	
+}
+.arrang .arrang-cheng a{
+	font-weight: bold;
+	font-size: 14px;
+	color: #525252;
+	padding: 0.2rem 0 0.05rem 0;
+}
+.arrang .arrang-cheng a:nth-child(1){
+	border-bottom: 0.04rem solid #525252;
+}
+
+
+.arrang .arrang-cheng a:last-child{
+	margin-left: 0.8rem;
+}
+
+.arrang .xc-list{
+	width: 100%;
+	height: auto;
+	padding: 0.2rem 0;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.arrang .xc-list div{
+	width: 1.46rem;
+	height: 0.42rem;
+	/*padding: 0.1rem 0.34rem;*/
+	background: #DB1439;
+	border-radius:0.42rem;
+	line-height: 0.42rem;
+	text-align: center;
+	font-size: 14px;
+	color: #FDFDFD;
+}
+.arrang .xc-content{
+	width: 100%;
+	height: auto;
+	display: flex;
+	position: relative;
+	
+}
+.arrang .xc-content .xc-left{
+	width: 0.22rem;
+	height:9.93rem;
+	background: url(../../images/ycw/po.jpg) no-repeat center center;
+ -webkit-background-size: 100%;
+    background-size: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.arrang .xc-content .xc-right{
+	padding-left: 0.4rem;
+}
+.arrang .xc-content .xc-right h1{
+	display: flex;
+}
+.arrang .xc-content .xc-right h1 p{
+	width: 0.22rem;
+	height: 0.22rem;
+	margin: 0 0.1rem;
+}
+.arrang .xc-content .xc-right h1 p img{
+   width: 0.22rem;
+}
+
+.arrang .xc-content .xc-right .text{
+	padding-top: 0.2rem;
+	padding-bottom: 0.35rem;
+	font-size: 13px;
+}
+
+.arrang .xc-content .xc-right .img-box{
+	width: 100%;
+	position: relative;
+}
+.last-child{
+    margin-top: 0.24rem;
+}
+.arrang .xc-content .xc-right .img-box img{
+   width: 100%;
+}
+
+.arrang .xc-content .xc-right .img-box .mask{
+	width: 100%;
+	height: 0.41rem;
+	position: absolute;
+	left: 0;
+	bottom: 0.1rem;
+	background: rgba(0,0,0,0.5);
+	line-height: 0.41rem;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	font-size: 12px;
+}
+
+.arrang .xc-content .xc-right .cheer{
+	width: 100%;
+	height: auto;
+	padding-top: 0.26rem;
+	position: relative;
+}
+
+.arrang .xc-content .xc-right .cheer h1 span{
+     width: 0.3rem;
+     height: 0.3rem;
+     position: absolute;
+     left: -0.45rem;
+     top: 0.2rem;
+     background: url(../../images/ycw/arc.png) no-repeat center center;
+     -webkit-background-size:100%;
+     background-size:100%;
+}
+
+
+.arrang .xc-content .xc-right .cheer p{
+	padding-top: 0.11rem;
+	font-size: 14px;
+}
+.arrang .xc-content .xc-right .cheer h2{
+	padding-top: 0.11rem;
+}
+.arrang .xc-content .xc-right .cheer .gu{
+	padding: 0.2rem 0;
+}
+
+.arrang .xc-content .xc-right .more{
+	width: 2.4rem;
+	height: 0.44rem;
+	margin:  0 auto;
+	background: #14B3FD;
+	border-radius: 0.44rem;
+	margin-bottom: 0.3rem;
+
+}
+.arrang .xc-content .xc-right .more a{
+	display: block;
+	text-align: center;
+	line-height: 0.44rem;
+	font-size: 13px; 
+	color: #fff;
+
+}
+
+/*产品特点*/
+.feature{
+  width: 100%;
+  height: auto;
+  padding: 0 0.27rem 0.27rem 0.27rem;
+  margin-top: 0.1rem;
+  background: #fff;
+  border-radius: 0.14rem;
+}
+.feature .text p{
+	width: 100%;
+   padding-top: 0.3rem;
+   font-size: 13px;
+   color: #181818;
+}
+.feature .text p:last-child{
+	padding-bottom: 0.3rem;
+}
+
+
+
+.feature .more{
+	width: 2.4rem;
+	height: 0.44rem;
+	margin:  0 auto;
+	background: #14B3FD;
+	border-radius: 0.44rem;
+
+}
+.feature  .more a{
+	display: block;
+	text-align: center;
+	line-height: 0.44rem;
+	font-size: 13px; 
+	color: #fff;
+
+}
+
+/*旅游须知*/
+.tours{
+  width: 99%;
+  height: auto;
+  padding: 0.27rem 0.27rem 0.27rem 0.27rem;
+  margin-top: 0.1rem;
+  background: #fff;
+  border-radius: 0.14rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.tuijian{
+  width: 100%;
+  height: auto;
+  padding: 0 0.27rem;
+  margin-top: 0.1rem;
+  background: #fff;
+  border-radius: 0.14rem;
+  margin-bottom: 0.24rem;
+}
+
+.tuijian .texts{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	display: flex;
+	flex-direction:column;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+}
+.tuijian .texts p{
+	 width: 100%;
+	 text-align: center;
+	font-size: 12px;
+
+}
+
+.tuijian .texts a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 0.16rem ;
+	padding-bottom: 0.35rem;
+}
+.tuijian .texts img{
+	height: 0.34rem;
+}
+
+.tuijian .list-content{
+	width: 100%;
+	height: auto;
+	display: flex;
+	padding-top: 0.24rem;
+	flex-wrap: wrap;
+}
+.tuijian .list-content li{
+	width:48%;
+	height:auto;
+	border-radius: 0.16rem;
+}
+.tuijian .list-content li a{
+    display: block;
+	position: relative;
+}
+.tuijian .list-content li a .mask{
+	width: 94%;
+	height: 1.3rem;
+	position: absolute;
+	left: 0;
+	bottom: 0.07rem;
+	background: rgba(0,0,0,0.5);
+	padding: 0.1rem 0.1rem;
+}
+.tuijian .list-content li a .mask span{
+   font-size: 10px;
+    color: #fff;
+}
+
+.tuijian .list-content li a .mask .rmb{
+	width: 1.58rem;
+	height: 0.4rem;
+	position: absolute;
+	right: 0.1rem;
+	bottom:0.1rem;
+	display: inline-block;
+	background: #FB9318;
+	border-radius: 0.08rem;
+	font-size: 10px;
+	line-height: 0.4rem;
+	 color: #fff;
+	text-align: center;
+}
+.tuijian .list-content li a .mask .rmb i{
+     font-size: 12px;
+     color: #fff;
+     font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+.tuijian .list-content li a img{
+	width: 100%;
+}
+
+.tuijian .list-content .one{
+	padding-right: 0.08rem;
+}
+.tuijian .list-content .two{
+	padding-left: 0.08rem;
+}
+
+
+footer{
+	position: fixed;
+	width: 100%;
+	height: 1.01rem;
+	background: #fff;
+	left: 0;
+	bottom: 0;
+}
+
+footer .footer{
+	width: 6.48rem;
+	height: 0.69rem;
+	background: #FB9318;
+	border-radius: 0.14rem;
+	margin:  0.16rem  auto 0;
+}
+
+footer .footer a{
+	display: block;
+	line-height: 0.69rem;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	font-size: 14px;
+}

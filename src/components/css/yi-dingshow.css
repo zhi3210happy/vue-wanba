@@ -1,0 +1,151 @@
+html,
+body,
+a,
+ul,
+li,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  font-family: "微软雅黑";
+}
+img {
+  border: none;
+}
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html,
+body {
+  background: #EFEFEF;
+  position: relative;
+}
+/*头部开始*/
+#yi-header {
+  height: 0.9rem;
+  width: 100%;
+  position: absolute;
+  top: 0!important;
+  left: 0 !important;
+  box-sizing: border-box;
+  padding: 0 0.25rem 0;
+  background: #fff;
+  border-bottom: 1px solid #EFEFEF;
+}
+#yi-header #left {
+  height: 100%;
+  width: auto;
+  float: left;
+}
+#yi-header #left a {
+  height: 0.45rem;
+  width: 0.45rem;
+  float: left;
+  margin-top: 0.225rem;
+}
+#yi-header #left a img {
+  display: block;
+  height: 100%;
+}
+#yi-header .titles {
+  margin-top: .1rem;
+  float: left;
+  width: 3.3rem;
+  font-size: 12px;
+  margin-left: 1.5rem;
+  text-align: center;
+}
+#yi-header .titles b {
+  display: block;
+  margin: 0;
+}
+#yi-header .titles .bottom {
+  width: auto;
+  height: auto;
+  overflow: auto;
+}
+#yi-header .titles .bottom span {
+  display: block;
+  float: left;
+  height: 0.1rem;
+  width: 0.1rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #74ECFE;
+  margin-top: 0.15rem;
+  margin-left: 0.1rem;
+}
+#yi-header .titles .bottom span:nth-of-type(1) {
+  margin-left: 0.55rem;
+  height: 0.08rem;
+  width: 0.08rem;
+  background: #FFFF19;
+}
+#yi-header .titles .bottom span:nth-of-type(4) {
+  height: 0.08rem;
+  width: 0.08rem;
+  background: #FFFF19;
+}
+#yi-header .titles .bottom p {
+  display: block;
+  width: 1.5rem;
+  float: left;
+  margin: 0;
+  font-size: 14px;
+}
+/*头部结束*/
+#yi-Body {
+  width: 100%;
+  overflow-y: scroll;
+  background: #fff;
+  box-sizing: border-box;
+  margin-top: 0.9rem;
+  float: left;
+  /*订单详情开始*/
+  /*订单详情结束*/
+}
+#yi-Body .line {
+  width: 100%;
+  height: 0.1rem;
+  background: #EFEFEF;
+}
+#yi-Body ul {
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.1rem 0.25rem;
+  color: #151515;
+  font-size: 12px;
+  position: relative;
+}
+#yi-Body ul #yi-jiantou {
+  display: block;
+  height: 0.33rem;
+  width: 0.55rem;
+  position: absolute;
+  right: 0;
+  top: 1.8rem;
+  font-size: 0;
+}
+#yi-Body ul #yi-jiantou img {
+  display: block;
+  height: 100%;
+}
+#yi-Body ul li {
+  width: 100%;
+  background: #fff;
+  height: auto;
+  padding: 0.1rem 0;
+  border-bottom: 1px solid #FBFCFE;
+}

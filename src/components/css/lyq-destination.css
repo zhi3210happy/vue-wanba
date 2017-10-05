@@ -1,0 +1,400 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+body{
+	background: #FFF;
+	display: flex;
+	flex-direction:column;
+}
+div.body{
+    
+	flex-grow:1;
+
+}
+/*头部详情*/
+	header.head{
+		height:0.88rem;
+		width:100%;
+		background: #FEFCFC;
+		display: flex;
+		justify-content:space-between;
+		align-items:center;
+		box-sizing:border-box;
+		padding:0 0.22rem;
+		flex-grow:0;
+	}
+	header.head span:nth-child(1){
+		width:0.4rem;
+		height:0.4rem;
+		font-size: 0;
+	}
+	header.head span:nth-child(1)>a{
+		display: block;
+		width:100%;
+		height:100%;
+		font-size: 0;
+	}
+	header.head span:nth-child(1)>a>img{
+		width:0.4rem;
+	}
+	header.head span:nth-child(2){
+		font-size: 0;
+	}
+
+	header.head span:nth-child(2)>a{
+		font-size: 12px;
+		text-align: center;
+		line-height: 0.88rem;
+		color:#424242;
+	}
+	header.head span:nth-child(3){
+		width:0.4rem;
+		height:0.4rem;
+	}
+/*搜索框*/
+	section.search{
+		height:0.76rem;
+		background: #EFEFEF;
+		line-height: 0.76rem;
+		text-align: center;
+		font-size: 0;
+		position: relative;
+	}
+	section.search>input{
+		width:6.8rem;
+		height:0.5rem;
+		border:1px solid #B8BCC0;
+		vertical-align: middle;
+		box-sizing:border-box;
+		border-radius: 12px;
+		padding:0 0.42rem 0 0.5rem;
+		color:#C6C5C5;
+		background: #F5F4F4;
+		line-height: 0.5rem;
+	}
+	section.search>img.sacle{
+		position: absolute;
+		width:0.26rem;
+		left:0.54rem;
+		top:0;
+		bottom:0;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	section.search>img.speak{
+		position: absolute;
+		width:0.18rem;
+		right:0.56rem;
+		top:0;
+		bottom:0;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+/*banner*/
+	section.banner{
+		height:2.18rem;
+		font-size: 0;
+	}
+	.swiper-slide>img{
+		width:100%;
+	}
+	.swiper-pagination-bullet-active{
+		background:#FFFF00!important;
+	}
+	.swiper-pagination-bullet{
+		width:0.24rem;
+		height:3px;
+		border-radius: 0;
+		background:#BFBFBF;
+	}
+/*推荐目的地*/
+	section.recommend{
+		padding:0.3rem 0;
+		background: #FFF;
+		border-bottom-left-radius:4px; 
+		border-bottom-right-radius:4px; 
+	}
+	section.recommend div.logo{
+		width:3.4rem;
+		height:0.7rem;
+		margin: 0 auto 0.3rem;
+		font-size: 0;
+	}
+	section.recommend div.logo>img{
+		width:100%;
+	}
+	section.recommend .list{
+		width:6.16rem;
+		text-align: center;
+		font-size: 0;
+		margin:0 auto;
+	}
+	section.recommend .list>div.list-one{
+		display: inline-block;
+		margin-right: 0.1rem;
+		background: url(../images/lyq-background_07.png) no-repeat center center/cover;
+		width:1.15rem;
+		height:0.42rem;
+		line-height: 0.44rem;
+		text-align: center;
+		font-size:0;
+		margin-bottom: 0.14rem;
+	}
+	section.recommend .list>div.list-last{
+		margin-right: 0;
+	}
+	section.recommend .list>div.list-one>a{
+		font-size: 10px;
+		color:#3C3C3C;
+	}
+/*目的地选择*/
+	.choice{
+		background: #FFF;
+		border-top: 5px solid #EFEFEF;
+	}
+	.choice>div.choice-list{
+		height:1.24rem;
+		box-shadow: 5px 2px 8px 0px #EFEFEF;
+		margin:0 auto;
+		width:7rem;
+		box-sizing:border-box;
+	}
+	.choice>div.choice-list>.choice-lists-one{
+		width:50%;
+		height:1.12rem;
+		display: flex;
+		flex-direction:column;
+		padding-top:0.12rem;
+		align-items:center;
+		float:left;
+	}
+	.choice>div.choice-list>.choice-lists-one.active{
+		background: #74ECFE;
+	}
+
+	.choice>div.choice-list>.choice-lists-one:nth-child(1)>img{
+		width:0.67rem;
+	}
+	.choice>div.choice-list>.choice-lists-one:nth-child(2)>img{
+		width:0.56rem;
+	}
+	.choice>div.choice-list>.choice-lists-one>span{
+		font-size: 12px;
+		color:#000000;
+		line-height: 20px;
+	}
+	.choice>div.choice-list>.choice-lists-one:nth-child(1){
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
+	.choice>div.choice-list>.choice-lists-one:nth-child(2){
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+	.choice>div.choice-box{
+		width:100%;
+		height:auto;
+		position: relative;
+		margin-top: 10px;
+	}
+	.choice>div.choice-box>.choice-one{
+		position: absolute;
+		left:0;
+		right:0;
+		width:100%;
+		display: none;
+	}
+	.choice>div.choice-box>.choice-one.hot{
+		display: block;
+	}
+
+	.choice>div.choice-box>.choice-one>.choice-list-one{
+		width:7rem;
+		margin:0 auto;
+		background: #FFF;
+		/*overflow: hidden;*/
+		padding-bottom: 0.3rem;
+		border-radius: 5px;
+		box-shadow: 4px 2px 5px 0px #F3F2F3;
+		margin-bottom: 0.14rem;
+		position: relative;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.doom{
+		position: absolute;
+		width:1.07rem;
+		height:0.64rem;
+		left:0.3rem;
+		top:-0.08rem;
+		font-size: 0;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.newgood{
+		width:1.3rem;
+		height:0.3rem;
+		color:#FFF;
+		background:rgba(0,0,0,0.6);
+		position: absolute;
+		right:0.1rem;
+		bottom:2.2rem;
+		font-size: 10px;
+		text-align: center;
+		line-height: 0.3rem;
+		border-radius: 10px;
+		padding:5px;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.doom>img{
+		width:100%;
+	}
+
+	.choice>div.choice-box>.choice-one>.choice-list-one>.img{
+		width:100%;
+		border-radius: 4px;
+		height:1.76rem;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.list-desc{
+		border-bottom: 2px solid #89EEFE;
+		overflow: hidden;
+		padding-bottom: 0.14rem;
+		box-sizing:border-box;
+		width:6.76rem;
+		margin:0.14rem auto 0;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.list-desc>.address{
+		float:left;
+		font-size: 0;
+		width:4.7rem;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.list-desc>.address>b{
+		font-size: 14px;
+		color:#000;
+		line-height: 24px;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.list-desc>.address>i{
+		font-size: 10px;
+		color:#575758;
+		font-style: normal;
+		text-overflow:ellipsis;
+		overflow: hidden;
+		white-space:nowrap;
+		display: block;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.list-desc>.price{
+		float:right;
+		height:0.6rem;
+		background: #FB9318;
+		font-size: 12px;
+		color:#FFF;
+		white-space: nowrap;
+		padding:0 0.05rem;
+		line-height: 0.72rem;
+		margin-top: 0.24rem;
+		border-radius: 4px;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.list-desc>.price>i{
+		font-size: 16px;
+		font-style: normal;
+		font-weight: bold;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.moreinfo{
+		padding: 0 0.12rem;
+		box-sizing:border-box;
+		overflow: hidden;
+		margin-top: 0.1rem;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.moreinfo>.moreinfo-left{
+		float:left;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.moreinfo>.moreinfo-left>a{
+		display: block;
+		padding:0.05rem 0.06rem;
+		font-size: 10px;
+		float:left;
+		margin-right: 2px;
+		border:1px solid #E7E8E8;
+		color:#C3C4C4;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.moreinfo>.moreinfo-right{
+		float:right;
+		font-size: 0;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.moreinfo>.moreinfo-right>span{
+		font-size: 10px;
+		line-height: 0.5rem;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.moreinfo>.moreinfo-right>span>a{
+		font-size: 10px;
+		vertical-align: middle;
+		color:#BABABA;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.moreinfo>.moreinfo-right>span:nth-child(1)>img{
+		width:0.24rem;
+		display: inline;
+		vertical-align: middle;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.moreinfo>.moreinfo-right>span:nth-child(2)>img{
+		width:0.36rem;
+		vertical-align: middle;
+	}
+	.choice>div.choice-box>.choice-one>.choice-list-one>.link{
+		display: block;
+		width:100%;
+		height:2.6rem;
+		position: absolute;
+		left:0;
+		right:0;
+		font-size: 0;
+	}
+/*table*/
+	section.table{
+		height:1rem;
+		background: #FFF;
+		display: flex;
+		flex-grow:0;
+		border-top:1px solid #f1f1f1;
+	}
+	section.table>span{
+		flex-grow:1;
+		display: flex;
+		flex-direction:column;
+		align-items:center;
+		justify-content:center;
+		position: relative;
+	}
+	section.table>span>a{
+		display:flex;
+		width:100%;
+		height:100%;
+		position: absolute;
+		left:0;
+		right:0;
+		flex-direction:column;
+		align-items:center;
+		justify-content:center;
+	}
+
+	section.table>span>a>img{
+		width:0.44rem;
+		height:0.42rem;
+		margin-bottom: 0.1rem;
+	}
+	section.table>span>a>i{
+		font-size: 12px;
+		color:#424141;
+		font-style: normal;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

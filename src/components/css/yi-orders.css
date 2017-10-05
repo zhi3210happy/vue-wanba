@@ -1,0 +1,190 @@
+html,
+body,
+a,
+ul,
+li,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  font-family: "微软雅黑";
+}
+img {
+  border: none;
+}
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html,
+body {
+  background: #EFEFEF;
+  position: relative;
+}
+/*头部开始*/
+#yi-header {
+  height: 0.9rem;
+  width: 100%;
+  position: absolute;
+  top: 0!important;
+  left: 0 !important;
+  box-sizing: border-box;
+  padding: 0 0.25rem 0;
+  background: #fff;
+}
+#yi-header #left {
+  height: 100%;
+  width: auto;
+  float: left;
+}
+#yi-header #left a {
+  height: 0.45rem;
+  width: 0.45rem;
+  float: left;
+  margin-top: 0.225rem;
+}
+#yi-header #left a img {
+  display: block;
+  height: 100%;
+}
+#yi-header .titles {
+  margin-top: .1rem;
+  float: left;
+  width: 3.3rem;
+  font-size: 12px;
+  margin-left: 1.5rem;
+  text-align: center;
+}
+#yi-header .titles b {
+  display: block;
+  margin: 0;
+}
+#yi-header .titles .bottom {
+  width: auto;
+  height: auto;
+  overflow: auto;
+}
+#yi-header .titles .bottom span {
+  display: block;
+  float: left;
+  height: 0.1rem;
+  width: 0.1rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #74ECFE;
+  margin-top: 0.15rem;
+  margin-left: 0.1rem;
+}
+#yi-header .titles .bottom span:nth-of-type(1) {
+  margin-left: 0.55rem;
+  height: 0.08rem;
+  width: 0.08rem;
+  background: #FFFF19;
+}
+#yi-header .titles .bottom span:nth-of-type(4) {
+  height: 0.08rem;
+  width: 0.08rem;
+  background: #FFFF19;
+}
+#yi-header .titles .bottom p {
+  display: block;
+  width: 1.5rem;
+  float: left;
+  margin: 0;
+  font-size: 14px;
+}
+/*头部结束*/
+#yi-Body {
+  width: 100%;
+  overflow-y: scroll;
+  background: #FBFCFE;
+  box-sizing: border-box;
+  margin-top: 1.1rem;
+  float: left;
+  /*列表开始*/
+  /*列表结束*/
+}
+#yi-Body #yi-list {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  font-size: 12px;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 0.25rem;
+  -webkit-box-shadow: 0 5px 25px 0px #eee;
+  -moz-box-shadow: 0 5px 25px 0px #eee;
+  box-shadow: 0 5px 25px 0px #eee;
+  position: relative;
+}
+#yi-Body #yi-list #tuan {
+  height: 0.5rem;
+  width: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0.3rem;
+  background: url(../images/yi-zu.png) no-repeat center center;
+  background-size: cover!important;
+  text-align: center;
+  line-height: 0.5rem;
+  color: #fff;
+  font-size: 12px;
+}
+#yi-Body #yi-list b {
+  display: block;
+  width: 100%;
+  float: left;
+  font-size: 14px;
+  margin: 0.2rem 0;
+}
+#yi-Body #yi-list p {
+  color: #2D2D2D;
+}
+#yi-Body #yi-list .bottom {
+  height: auto;
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  border-bottom: 1px solid #E2E2E2;
+  padding-bottom: 0.1rem;
+}
+#yi-Body #yi-list .bottom span {
+  float: left;
+  width: 50%;
+  font-weight: bold;
+}
+#yi-Body #yi-list .xia {
+  width: 100%;
+  height: 1rem;
+  float: left;
+}
+#yi-Body #yi-list .xia a {
+  float: left;
+  height: 0.5rem;
+  width: 2rem;
+  text-align: center;
+  line-height: 0.5rem;
+  font-size: 14px;
+  background: #E9E8E8;
+  color: #000;
+  margin: 0.25rem 0.1rem;
+  -webkit-border-radius: 0.05rem;
+  -moz-border-radius: 0.05rem;
+  border-radius: 0.05rem;
+}
+#yi-Body #yi-list .xia a:last-of-type {
+  background: #EE5251;
+  color: #fff;
+  float: right;
+  margin-right: 0.1rem;
+}

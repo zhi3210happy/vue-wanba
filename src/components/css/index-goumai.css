@@ -1,0 +1,440 @@
+*{
+
+	list-style:none;
+	font-family:"微软雅黑";
+	box-sizing:border-box;	
+}
+
+/*开始*/
+
+section{
+	height: 100%;	
+}
+/*导航开始*/
+.banner-jp {
+  width: 100%;
+  height:0.9rem;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+  padding: 0.01rem;
+}
+.banner-jp nav {
+  width: 100%;
+  height: 0.88rem;
+  padding: 0 0.25rem;
+  display: block;
+  text-align: center;
+}
+.banner-jp nav .back {
+  width: 0.48rem;
+  height: 0.48rem;
+  border-radius: 50%;
+  -webkit-background-size: 0.48rem !important;
+  background-size: 0.48rem !important;
+  margin: 0.225rem 0;
+  display: block;
+  float: left;
+}
+.banner-jp nav .order {
+  height: 0.88rem;
+  margin-top: 0.25rem;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+.banner-jp nav .order h1 {
+  width: 100%;
+  font-size: 10px;
+  display: block;
+  line-height: 0.24rem;
+  color: #000;
+}
+.banner-jp nav .order h1 img{
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+/*导航结束*/
+/*日期选择开始*/
+.jp-tianshu{
+  width: 100%;
+  height:0.65rem;
+  background: #505050;
+}
+.jp-tslist{
+  width: 7.05rem;
+  height: 0.65rem;
+  margin: 0 auto;
+}
+.data-day{
+  width: 2.15rem;
+  height: 100%;
+  float: left;
+  margin-left:-0.55rem;
+
+}
+
+
+.data-day h1 {
+  width: 100%;
+  height: 0.65rem;
+  font-size: 10px;
+  display:block;
+  color:#fff;
+  float: left;
+  margin-left:0.05rem; 
+  line-height: 0.65rem;
+  font-weight:normal;
+}
+.data-day h1 img {
+  height: 0.18rem;
+  display: inline-block;
+  vertical-align:middle;
+}
+.data-day h1 span{
+  display:inline-block;
+  width: 0.9rem;
+  height:100%;
+  line-height: 0.3rem;
+  text-align: center;
+  vertical-align: middle;
+  margin-top:0.05rem;
+}
+.data-day h1:nth-child(3) img {
+  transform: rotate(180deg);
+}
+.new-day{
+  width: 2.6rem;
+  height: 0.65rem;
+  background:#fff;
+  float: left;
+  margin: 0 auto;
+  border-radius: 0.1rem;
+  margin-left:0.1rem;
+}
+.new-day .date-img{
+  display: block;
+  width: 0.3rem;
+  height: 0.3rem;
+  margin-top: 0.2rem;
+  margin-left:0.2rem;
+  float: left;
+}
+.new-day span{
+  text-align:center;
+  font-size: 12px;
+  color:#47D0FF;
+  float: left;
+  line-height: 0.65rem;
+  margin-left:0.05rem;
+}
+.new-day span:nth-child(2){
+  margin-left: 0.1rem;
+}
+.new-day h3{
+  width: 0.58rem;
+  font-size: 12px;
+  color:#FF0606;
+  float: right;
+  display:block;
+  line-height: 0.65rem;
+  font-weight: normal;
+  margin-right: 0.18rem;
+}
+
+.data-day2{
+  width: 2.15rem;
+  height: 100%;
+  float:right;
+}
+.data-day2 h1 {
+  width: 100%;
+  height: 0.65rem;
+  font-size: 10px;
+  display:block;
+   color:#fff;
+  float: left;
+  margin-left:0.05rem; 
+  line-height: 0.65rem;
+  font-weight: normal;
+}
+.data-day2 h1 img {
+  height: 0.18rem;
+  display: inline-block;
+  vertical-align:middle;
+}
+.data-day2 h1 span{
+  display:inline-block;
+  width: 0.9rem;
+  height:100%;
+  line-height: 0.3rem;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 0.05rem;
+}
+.data-day2 h1:nth-child(3) img {
+  transform: rotate(180deg);
+}
+
+/*日期选择结束*/
+
+/*航班选择开始 */
+.jp-hangban{
+  width: 7.05rem;
+  height: 1.33rem;
+  margin: 0 auto;
+  background: #4DBBFF;
+  margin-top: 0.2rem;
+  border-radius: 0.1rem;
+}
+.hangban-left{
+  width: 5.42rem;
+  height: 1.33rem;
+  float: left;
+  border-radius: 0.1rem;
+}
+.hangban-left h1{
+  font-size: 12px;
+  margin-top: 0.15rem;
+  margin-left:0.2rem;
+  color:#fff;
+} 
+.hangban-left h1 span{
+  margin-left:0.2rem;
+}
+.hb-getup{
+  width: 100%;
+  height: 0.7rem;
+}
+.hb-qifei{
+  width: 1.3rem;
+  height: 0.8rem;
+  float: left;
+}
+.hb-qifei .fei-img{
+  width: 0.35rem;
+  height: 0.3rem;
+  display: block;
+  float: left;
+  margin-left: 0.07rem;
+  margin-top: 0.2rem;
+}
+.hb-qifei .luo-img{
+  width: 0.35rem;
+  height: 0.4rem;
+  display: block;
+  float: left;
+  margin-left: 0.07rem;
+  margin-top: 0.1rem;
+}
+.hb-qifei .luo-img img{
+  height: 100%;
+}
+.hb-wusu{
+  width: 0.8rem;
+  height: 0.7rem;
+  float: left;
+  margin-left: 0.05rem;
+}
+.hb-wusu h2{
+  font-size: 12px;
+  color: #fff;
+}
+.hb-wusu span{
+  font-size: 16px;
+  display: block;
+  color: #fff;
+}
+.hb-jian2{
+  width: 2.25rem;
+  height: 100%;
+  float: left;
+  display: block;
+  line-height: 0.1rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem
+}
+.hb-jian2 img{
+  width: 100%;
+}
+.hangban-right{
+  width: 1.63rem;
+  height: 1.33rem;
+  float: right;
+}
+.hangban-right h3{
+  font-size: 12px;
+  text-align:center;
+  margin-top: 0.15rem;
+  margin-left: -0.3rem;
+  color:#fff;
+}
+.hangban-right h2{
+  font-size: 12px;
+  text-align:center;
+  margin-left: -0.3rem;
+  margin-top:-0.05rem;
+  color:#fff;
+}
+.hangban-right h1{
+  font-size: 14px;
+  text-align:center;
+  margin-left: -0.2rem;
+  margin-top:0.06rem;
+  color:#fff;
+}
+/*航班选择开始 */
+  .jp-hangban1{
+    width: 7.05rem;
+    height: 1.33rem;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 0.2rem;
+    border-radius: 0.1rem;
+  }
+  .hangban-left1{
+    width: 5.42rem;
+    height: 1.33rem;
+    float: left;
+    border-radius: 0.1rem;
+  }
+  .hangban-left1 h1{
+    font-size: 12px;
+    margin-top: 0.15rem;
+    margin-left:0.2rem;
+    color:#000;
+  } 
+  .hangban-left1 h1 span{
+    margin-left:0.2rem;
+  }
+  .hb-getup{
+    width: 100%;
+    height: 0.7rem;
+  }
+  .hb-qifei{
+    width: 1.3rem;
+    height: 0.8rem;
+    float: left;
+  }
+  .hb-qifei .fei-img{
+    width: 0.35rem;
+    height: 0.3rem;
+    display: block;
+    float: left;
+    margin-left: 0.07rem;
+    margin-top: 0.2rem;
+  }
+  .hb-qifei .luo-img{
+    width: 0.35rem;
+    height: 0.4rem;
+    display: block;
+    float: left;
+    margin-left: 0.07rem;
+    margin-top: 0.1rem;
+  }
+  .hb-qifei .luo-img img{
+    height: 100%;
+  }
+  .hangban-left1 .hb-wusu{
+    width: 0.8rem;
+    height: 0.7rem;
+    float: left;
+    margin-left: 0.08rem;
+  }
+  .hangban-left1 .hb-wusu h2{
+    font-size: 12px;
+    color: #A3A3A3;
+    font-weight: normal;
+  }
+  .hangban-left1 .hb-wusu span{
+    font-size: 16px;
+    display: block;
+    color: #000;
+  }
+  .hangban-left1 .hb-jian2{
+    width: 2.25rem;
+    height: 100%;
+    float: left;
+    display: block;
+    line-height: 0.3rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+  }
+  .hangban-left1 .hb-jian2 .jp-jian3{
+    width: 0.52rem;
+    float: left;
+    margin-top: 0.2rem;
+    margin-left:0.1rem;
+    padding-right: 0.1rem;
+  }
+  .hangban-right{
+    width: 1.63rem;
+    height: 1.33rem;
+    float: right;
+    background: #4DBBFF;
+    /*border-radius: 0.1rem; */
+  }
+  .hangban-right h3{
+    font-size: 12px;
+    text-align:center;
+    margin-top: 0.15rem;
+    margin-left: -0.3rem;
+    color:#fff;
+  }
+  .hangban-right h2{
+    font-size: 12px;
+    text-align:center;
+    margin-left: -0.3rem;
+    margin-top:-0.05rem;
+    color:#fff;
+  }
+  .hangban-right h1{
+    font-size: 14px;
+    text-align:center;
+    margin-left: -0.2rem;
+    margin-top:0.06rem;
+    color:#fff;
+  }
+/*航班选择结束*/
+
+
+/*定位开始*/
+  .city-dingwei{
+    width: 100%;
+    height: 1rem; 
+    margin-top: 0.1rem;
+  }
+  .city-dwztk{
+    width: 7.07rem;
+    height: 1rem;
+    margin: 0 auto;
+  }
+  .city-dwzt{
+    height: 0.55rem;
+  }
+  .city-dwzt h2{
+    font-size: 18px;
+    float: left;
+    line-height: 0.55rem;
+    font-weight: normal;
+  }
+  .city-dwzt img{
+    float: left;
+    margin-top: 0.3rem;
+    margin-left: 0.05rem;
+  }
+  .city-dwztk h3{
+    font-size: 13px;
+    float: left;
+    margin-top: -0.1rem;
+    font-weight: normal;
+    color:#306AFF;
+
+  }
+  .city-dwztk h3 span{
+    color:#30CCFF;
+  }
+/*定位结束*/
+
+
+

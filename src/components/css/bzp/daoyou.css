@@ -1,0 +1,144 @@
+/*导游*/
+#title-img{
+    width:100%;
+    height:1.24rem;
+    padding-bottom: 0.2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#title-img img{
+    height:0.73rem;
+}
+.guidebox{
+    width: 4.60rem!important;
+    height:2.85rem;
+    overflow: visible;
+}
+.guidebox .swiper-wrapper{
+    display: flex;
+    align-items: center;
+    -webkit-transform: translate3d(-2.4rem,0,0);
+    -moz-transform: translate3d(-2.4rem,0,0);
+    -ms-transform: translate3d(-2.4rem,0,0);
+    -o-transform: translate3d(-2.4rem,0,0);
+    transform: translate3d(-4.6rem,0,0);
+}
+.guidebox .swiper-wrapper .swiper-slide{
+    width: 4.16rem!important;
+    height:2.58rem;
+    background: #fff;
+    border-radius: 0.12rem;
+    margin-right: 0.64rem;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transition: all 0.5s;
+    padding: 0.15rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.guidebox .swiper-wrapper .swiper-slide:last-child{
+    margin-right: 0;
+}
+.guidebox .swiper-wrapper .swiper-slide.swiper-slide-active{
+    -webkit-transform: scale(1.12);
+    -moz-transform: scale(1.12);
+    -ms-transform: scale(1.12);
+    -o-transform: scale(1.12);
+    transform: scale(1.12);
+}
+.swiper-slide .guide-intro{
+    display: flex;
+    align-items: center;
+}
+.swiper-slide .guide-intro a img{
+    height: 0.9rem;
+}
+.swiper-slide .guide-intro>div{
+    margin-left: 0.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.swiper-slide .guide-intro>div span:first-child{
+    font-weight: bold;
+    font-size: 13px;
+    color: #191919;
+}
+.swiper-slide .guide-intro>div span:last-child{
+    font-size: 12px;
+    color: #2d2d2d;
+    margin-top: 0.22rem;
+}
+.swiper-slide .description{
+    width:100%;
+    font-size: 12px;
+    color: #2d2d2d;
+   -webkit-line-clamp:4;
+    line-height:1.2em;
+}
+.tuijian{
+    width: 100%;
+    height:auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.tuijian .tj-list{
+    width:100%;
+    height:3.63rem;
+    border-radius: 0.12rem;
+    background: #fff;
+}
+.tuijian .tj-list a{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.tuijian .tj-list a .img{
+    width:100%;
+    height:2.56rem;
+    background: url('../../images/tj-list1.jpg') no-repeat center center;
+    border-top-left-radius: 0.12rem;
+    border-top-right-radius: 0.12rem;
+    -webkit-background-size: cover;
+    background-size:cover;
+    flex: 0 0 auto;
+}
+.tuijian .tj-list a .title{
+    flex:1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.tuijian .tj-list a .title p{
+    font-size:13px;
+}
+.tuijian .tj-list a .title p:first-child{
+    color: #2d2d2d;
+    margin-left: 1.1rem;
+}
+.tuijian .tj-list a .title p:nth-child(2){
+    color: #191919;
+    font-weight: 500;
+}
+.tuijian .tj-list a .title img{
+    display: block;
+    position: absolute;
+    height:0.82rem;
+    width:0.82rem;
+    top:0;
+    -webkit-transform: translatey(-50%);
+    -moz-transform: translatey(-50%);
+    -ms-transform: translatey(-50%);
+    -o-transform: translatey(-50%);
+    transform: translatey(-50%);
+}

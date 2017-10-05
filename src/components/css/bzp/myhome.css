@@ -1,0 +1,326 @@
+
+.banner-photo{
+    width:100%;
+    height: auto;
+    position: relative;
+}
+
+.banner-photo>img{
+	width: 100%;
+}
+.banner-photo .user-info{
+	width: 1.7rem;
+	height: 2.16rem;
+	z-index: 3;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.banner-photo .user-info>div{
+	width: 1.7rem;
+	height: 1.7rem;
+	position: relative;
+}
+.banner-photo .user-info>div .txbg{
+	width: 1.7rem;
+	height: 1.7rem;
+}
+.banner-photo .user-info>div .tx{
+	width: 1rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.banner-photo .user-info span{
+	font-size: 12px;
+	color: #fefefe;
+	display: block;
+	width: 100%;
+	margin-top: 0.2rem;
+	text-align: center;
+}
+section{
+	width: 100%;
+	background: #FFFCFA;
+	border-radius: 0.12rem;
+	margin-bottom: 0.1rem;
+	display: flex;
+	flex-direction:column;
+	padding: 0 0.24rem;
+	padding-top: 0.1rem;
+	justify-content:space-around;
+}
+/*我的订单*/
+.dingdan{
+	height: 1.7rem;
+	margin-top:-0.2rem;
+	position: relative;
+	z-index: 5;
+}
+#title{
+	display: flex;
+	align-items:center;
+}
+#title h3{
+	font-size: 12px;
+	color: #181818;
+}
+#title span{
+	display: block;
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #74ECFE;
+	margin-left: 0.1rem;
+	border-radius: 50%;
+}
+#title span:last-child{
+	background: #FD1440;
+}
+#bottom{
+	height: auto;
+	display: flex;
+	justify-content:space-between;
+}
+#bottom a{
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	color: #181818;
+	font-size: 9px;
+	font-weight: bold;
+}
+#bottom a img{
+	width: 0.4rem;
+	height: 0.4rem;
+}
+#bottom a span{
+	display: block;
+	margin-top: 0.18rem;
+	color: #181818;
+	font-size: 9px;
+	font-weight: bold;
+}
+.dingdan #bottom,.zhushu #bottom{
+	width: 100%;
+}
+/*我的钱包*/
+.wallet{
+	height: 1.52rem;
+}
+.wallet #bottom{
+	width: 75%;
+}
+/*我的专属*/
+.zhuanshu{
+	height: 1.6rem;
+}
+.zhuanshu .zscon{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content:space-between;
+}
+.zhuanshu .zscon a{
+	color: #181818;
+	font-size: 9px;
+	width: 1.7rem;
+	height: 0.6rem;
+	border:1px solid #DBDBDB;
+	flex-direction:row;
+	justify-content:space-around;
+	display: flex;
+	align-items:center;
+	border-radius: 0.02rem;
+}
+.zhuanshu .zscon a img{
+	width: 0.4rem;
+	height: 0.4rem;
+}
+.zhuanshu .zscon a span{
+	margin-left: 0.05rem;
+	color: #181818;
+	font-size: 9px;
+	font-weight: bold;
+}
+/*猜你喜欢*/
+.guess-like{
+	height: 3.15rem;
+	height: auto;
+	display: flex;
+	flex-direction:column;
+}
+.guess-like .like{
+	width: 100%;
+	display: flex;
+	margin-bottom: 0.26rem;
+}
+.guess-like #title{
+	margin-bottom: 0.3rem;
+}
+.guess-like .like .left{
+	width: 2.03rem;
+	height: 2.03rem;
+	border-bottom: 1px solid #FFE400;
+	flex:0 0 auto;
+}
+.guess-like .like .left a{
+	display: flex;
+}
+.guess-like .like .left a img{
+	width: 2.03rem;
+	height: 2.03rem;
+	border-radius: 0.12rem;
+	flex:0 0 auto;
+}
+.guess-like .like .right{
+	padding-left: 0.17rem;
+	box-sizing:border-box;
+	flex:1 0 auto;
+}
+.guess-like .like .right a{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction:column;
+	justify-content:space-around;
+}
+.guess-like .like .right a h4{
+	color: #181818;
+	font-size:13px;
+}
+.guess-like .like .right a p{
+	width: 3rem;
+	line-height: 1.4em;
+	font-size: 10px;
+	color: #2d2d2d;
+}
+.guess-like .like .right a .mark{
+	width: 100%;
+	height: auto;
+	display:flex;
+	align-items:center;
+}
+
+.guess-like .like .right a .mark .price{
+	width: 1.7rem;
+	height: 0.6rem;
+	background: #FB9318;
+	color: #fcfcfb;
+	font-size: 10px;
+	text-align: center;
+	line-height: 0.6rem;
+	border-radius: 2px;
+}
+.guess-like .like .right a .mark .price span{
+	font-size: 19px;
+}
+.guess-like .like .right a .mark .manyi{
+	display: flex;
+	flex:1 0 auto;
+	margin-left: 0.15rem;
+	flex-direction:column;
+	justify-content:space-between;
+}
+.guess-like .like .right a .mark .manyi>div{
+	display:flex;
+	width: 100%;
+	height: 50%;
+	align-items:center;
+}
+.guess-like .like .right a .mark .manyi>div:first-child{
+	margin-bottom: 0.08rem;
+}
+.guess-like .like .right a .mark .manyi .d1{
+	width: 60%;
+}
+.guess-like .like .right a .mark .manyi .d1 img{
+	height: 0.22rem;
+}
+.guess-like .like .right a .mark .manyi .d1 span{
+	font-size:10px; 
+	color:#bababa;
+}
+.guess-like .like .right a .mark .manyi .d2{
+	color: #E7E7E7;
+	font-size: 10px;
+	width: 50%;
+	height: 0.25rem;
+	line-height: 0.25rem;
+	text-align: center;
+	border: 1px solid #E7E7E7;
+}
+.guess-like .like .right a .mark .manyi .d2:last-child{
+	margin-left: 0.2rem;
+}
+
+@media screen and (max-width:320px){
+	.guess-like .like .right a .mark .manyi .d1:last-child{
+		display: none;
+	}
+	.guess-like .like .right a .mark .manyi .d2:last-child{
+		display: none;
+	}
+}
+
+/*代付款*/
+.pay{
+	width: 100%;
+	height: 3.8rem;
+	background: #fff;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	margin-bottom: 0.16rem;
+}
+.pay div{
+	display: flex;
+	flex-direction:column;
+	text-align: center;
+}
+.pay div span{
+	color: #4F4F4F;
+	font-size: 14px;
+	font-weight: bold;
+}
+.pay div span:last-child{
+	color: #777777;
+	font-size: 12px;
+	margin-top: 0.14rem;
+	font-weight: normal;
+}
+.guess-like.paylike .like .right a .mark .price{
+	background: #FD1441;
+}
+
+
+/*底部*/
+.inbot{
+	width: 100%;
+	height: 0.88rem;
+	background: #fff;
+	position:fixed;
+	bottom:0;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+	z-index: 9999;
+}
+.inbot a{
+	display: flex;
+	align-items:center;
+	flex-direction:column;
+}
+.inbot a img{
+	height: 0.4rem;
+	margin-bottom: 0.1rem;
+}
+.inbot a span{
+	font-size: 12px;
+	color:#424141;
+}

@@ -1,0 +1,152 @@
+/*门票*/
+*{
+	margin:0;
+	padding:0;
+	font-family:微软雅黑;
+}
+.ticket{
+    width:100%;
+    height:auto;
+    padding:0.2rem 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+}
+.ticket figure{
+    width:100%;
+    height: 2rem;
+    background: #fff;
+    margin-bottom: 0.08rem;
+    border-radius: 0.15rem;
+}
+.ticket figure a{
+    height:100%;
+    display: flex;
+}
+.ticket figure a img{
+    width: 2.24rem;
+    border-top-left-radius: 0.15rem;
+    border-bottom-left-radius: 0.15rem;
+    flex:0 0 auto;
+}
+.ticket figure a .description{
+    flex: 1 0 auto;
+    padding: 0.2rem 0 0.2rem 0.28rem;
+    box-sizing: border-box;
+}
+.ticket figure a .description figcaption{
+    font-size: 13px;
+    color: #191919;
+}
+.ticket figure a .description p{
+    width: 4.4rem;
+    font-size: 12px;
+    color: #2d2d2d;
+    margin-top: 0.15rem;
+}
+.ticket figure a .description>div{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+    margin-top: 0.30rem;
+    padding-right: 0.56rem;
+    box-sizing: border-box;
+}
+.ticket figure a .description>div .price{
+    font-weight: bold;
+    font-size: 18px;
+    color: #fb9318;
+}
+.ticket figure a .description>div .pmprice{
+    color: #c4c4c4;
+    font-size: 12px;
+}
+.ticket figure a .description>div .pmprice span{
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.ticket figure a .description>div .address{
+    color: #c4c4c4;
+    font-size: 12px;
+}
+/*门票详情*/
+.ticketxq{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+}
+.ticketxq img{
+    height:2.8rem;
+}
+.ticketxq .ticket-intro{
+    width:100%;
+    height:auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.ticketxq .ticket-intro .title{
+    width:100%;
+    height:1.98rem;
+    background: #fff;
+    border-bottom-left-radius: 0.12rem;
+    border-bottom-right-radius: 0.12rem;
+    padding: 0.24rem 0 0.24rem 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ticketxq .ticket-intro .title span{
+    font-size: 12px;
+    color: #2d2d2d;
+}
+.ticketxq .ticket-intro .title span:first-child{
+    color: #191919;
+    font-size: 13px;
+    font-weight: bold;
+}
+.ticketxq .ticket-intro .yuding{
+    width:100%;
+    height:0.95rem;;
+    border-radius: 0.12rem;
+    background: #fff;
+    margin-top: 0.2rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.2rem;
+    padding-right: 0.47rem;
+    box-sizing: border-box;
+}
+.ticketxq .ticket-intro .yuding span:nth-child(1){
+    font-weight: bold;
+    font-size: 12px;
+    color: #191919;
+}
+.ticketxq .ticket-intro .yuding span:nth-child(2){
+    font-size: 18px;
+    color: #fb9318;
+    font-weight: bold;
+}
+.ticketxq .ticket-intro .yuding a{
+    color: #fff;
+    width: 1rem;
+    height:0.4rem;
+    border-radius: 0.04rem;
+    background:#fb9318;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 12px;
+}
+.ticket .tj-title{
+    width:100%;
+    height:0.73rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.25rem;
+    margin-bottom: 0.2rem;
+}
+.ticket .tj-title img{
+    height:100%;
+}

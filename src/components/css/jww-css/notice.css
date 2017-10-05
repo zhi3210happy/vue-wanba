@@ -1,0 +1,52 @@
+@import url(base.css);
+body,html{
+	height:100%;
+}
+body{
+	font-size:16px;
+	font-family:Helvetica,sans-serif;
+}
+a{
+	color:#141414;
+}
+.index-notice{
+	height:100%;
+	overflow:scroll;
+}
+/*头部------------------------------------*/
+.index-notice header{
+	position:relative;
+	width:100%;
+	height:.94rem;
+	border-bottom:1px solid #F1F1F1;
+	padding:.25rem;
+	box-sizing:border-box;
+	background:#fff;
+}
+.index-notice header .back{
+	display:block;
+	width:.44rem;
+	height:.44rem;
+	background:url(../../images/jww-images/back.png) no-repeat center center/cover;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.find{
+	text-align:center;
+	height:100%;
+	margin:0 auto;
+}
+/*注意事项*/
+.index-notice .notice{
+	padding:.25rem;
+	box-sizing:border-box;
+}
+.index-notice .notice span{
+	display:block;
+	margin-bottom:.25rem;
+	color:#525252;
+}

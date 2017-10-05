@@ -1,0 +1,215 @@
+
+body,html{
+	height:100%;
+}
+body{
+	font-size:16px;
+	background:#EFEFEF;
+	font-family: Helvetica,sans-serif;
+}
+.index-travel{
+	width:100%;
+	overflow:scroll;
+}
+a{
+	color:#141414;
+}
+/*---------------------------------------*/
+.index-travel header{
+	width:100%;
+	height:.94rem;
+	border-bottom:1px solid #F1F1F1;
+	padding:.25rem;
+	box-sizing:border-box;
+	background:#fff;
+}
+.index-travel header .back{
+	display:block;
+	width:.44rem;
+	height:.44rem;
+}
+.index-travel header .back:last-child{
+	background:url(../../images/jww-images/9.png) no-repeat center center/cover;
+	
+}
+.index-travel header .back img{
+	width:99%;
+}
+.index-travel header .jx{
+	width:.69rem;
+	height:.5rem;
+	border-radius:0 .2rem .2rem 0;
+	position:absolute;
+	right:.85rem;
+}
+.index-travel header .jx img{
+	width:100%;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.index-travel header input{
+	padding:.18rem .25rem;
+	width:5.8rem;
+	height:.5rem;
+	margin-left:.19rem;
+	background:#F2F2F2;
+	border-radius:.2rem;
+	display:block;
+	box-sizing:border-box;
+	color:#ABABAB;
+	position:relative;
+}
+/*---------------------------------------------*/
+.index-travel .banner img{
+
+	width:100%;
+}
+.swiper-pagination-bullet {
+	width: .24rem;
+	height: .03rem;
+	display: inline-block;
+	border-radius: 100%;
+	background: #ff0000;
+  }
+/*导航-----------------------------------------*/
+.index-travel .nav{
+	height:auto;
+	overflow:hidden;
+	
+}
+.index-travel .nav .nav-left{
+	width:33.3333333333%;
+	text-align:center;
+	height:.85rem;
+	line-height:.85rem;
+	border-radius: .0925rem;
+}
+/*-------------------------------------------------*/
+.index-travel .navs{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	
+}
+.index-travel .navs .big{
+	height:auto;
+	width:300%;
+	transition:all .5s;
+}
+.index-travel .navs .big .bigs{
+	width:33.3333333%;
+}
+.index-travel .classify{
+	height:auto;
+	overflow:hidden;
+}
+.index-travel .classify .classify-left{
+	padding:.14rem 0 0 .3rem;
+	box-sizing:border-box;
+}
+.index-travel .classify .classify-left a{
+	display:block;
+	width:1.5rem;
+	height:.34rem;
+	background:#E4E4E4;
+	border-radius:.3rem;
+	text-align:center;
+	line-height:.34rem;
+	color:#181818;
+	margin-right:.3rem;
+	margin-bottom:.12rem;
+}
+@media screen and (min-width:320px) {
+	.index-travel .classify .classify-left a{
+		font-size:12px;
+	}
+}
+@media screen and (max-width:320px) {
+	.index-travel .classify .classify-left a{
+		font-size:10px;
+	}
+}
+/*-----------------------------------------------------*/
+.index-travel .lists{
+	display:block;
+	height:auto;
+	overflow:hidden;
+	padding:.25rem;
+	box-sizing:border-box;
+	position:relative;
+}
+.index-travel .lists .lists-top{
+	height:auto;
+}
+.index-travel .lists .lists-top img{
+	width:100%;
+}
+.index-travel .lists .lists-bottom{
+	height:auto;
+	padding:.13rem;
+	box-sizing:border-box;
+}
+.index-travel .lists .lists-bottom .bottom-left{
+	width:68%;
+	color:#565656;
+	font-size:12px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.index-travel .lists .lists-bottom .bottom-left span{
+	color:#181818;
+	font-size:16px;
+	font-weight:bold;
+}
+.index-travel .lists .lists-bottom .bottom-right{
+	width:1.73rem;
+	height:.52rem;
+	background:#FD9418;
+	text-align:center;
+	color:#fff;
+	line-height:.52rem;
+}
+@media screen and (min-width:320px) {
+	.index-travel .lists .lists-bottom .bottom-right{
+		font-size:12px;
+	}
+	.index-travel .lists .lists-bottom .bottom-right span{
+		font-size:16px;
+	}
+}
+@media screen and (max-width:320px) {
+	.index-travel .lists .lists-bottom .bottom-right{
+		font-size:10px;
+	}
+	.index-travel .lists .lists-bottom .bottom-right span{
+		font-size:14px;
+	}
+}
+.index-travel .lists .lists-bottom .bottom-right span{
+	font-weight:bold;
+}
+.index-travel .lists .person{
+	width:1.2rem;
+	height:.72rem;
+	position:absolute;
+	left:.37rem;
+	top:.16rem;
+}
+.index-travel .lists .person img{
+	width:100%;
+}
+.index-travel .lists .news{
+	width:1.3rem;
+	height:.29rem;
+	position:absolute;
+	bottom:1.5rem;
+	right:.34rem;
+}
+.index-travel .lists .news img{
+	width:100%;
+}

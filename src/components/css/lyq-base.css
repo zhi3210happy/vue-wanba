@@ -1,0 +1,205 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,input,button,i,em{
+	margin:0;
+	padding:0;
+	list-style: none;
+	border:0;
+	outline: none;
+	font-family:helvetica;
+}
+ul{
+	-webkit-padding-start: 0px!important;
+}
+li{
+	-webkit-margin-before:0 !important;
+    -webkit-margin-after:0 !important;
+    -webkit-padding-start: 0 !important;
+}
+a{
+	text-decoration: none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+img{
+	border:0;
+}
+body,html{
+	width:100%;
+	height:100%;
+}
+/*左侧侧滑*/
+	.lx-container{
+		width:100%;
+		height:100%;
+		position: relative;
+		/*overflow: hidden;*/
+	}
+	.lx-container .lx-box{
+		width:11.25rem;
+		height:100%;
+		transform:translateX(-3.75rem);
+	}
+	.lx-container .lx-box .lx-slide-left{
+		width:3.75rem;
+		float:left;
+		height: 100%;
+		background: rgba(0,0,0,0.8);
+	}
+	.lx-container .lx-box .lx-slide-left .myInform{
+		height:10.76rem;
+		box-sizing:border-box;
+		padding:1.16rem 0 0.9rem;
+		width:100%;
+		height:100%;
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .myPhoto{
+		width:2.06rem;
+		height:2.06rem;
+		margin:0 auto;
+		border:2px dotted #FFF;
+		border-radius: 50%;
+		box-sizing:border-box;
+		padding:0.1rem;
+		overflow: hidden;
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .myName{
+		font-size:12px;
+		color:#fff;
+		text-align: center;
+		margin:0.6rem 0 0.54rem;
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .mystore{
+		width:100%;
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .mystore .title{
+		font-size: 16px;
+		color:#fff;
+		text-align: center;
+		height:0.72rem;
+		line-height: 0.72rem;
+		border-bottom:1px dotted #555454;
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .mystore .store_detail{
+		height:auto;
+		height:2.18rem;
+		border-bottom:5px solid #555555;
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .mystore .store_detail div{
+		height:0.5rem;
+		text-align: center;
+		margin:0.05rem 0 ;
+		font-size: 0;
+		line-height: 0.5rem;
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .mystore .store_detail div a{
+		font-size: 14px;
+		color:#FFF;
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .mystore .store_detail div i{
+		font-size: 14px;
+		color:#FFF;
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .others{
+
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .others .title{
+		font-size: 16px;
+		color:#fff;
+		text-align: center;
+		height:0.72rem;
+		line-height: 0.72rem;
+		border-bottom:1px dotted #555454;
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .others .others_detail{
+		height:2.04rem;
+		padding-top: 0.15rem;
+		box-sizing:border-box;
+	}
+	@media screen and (max-height: 480px){
+		.lx-container .lx-box .lx-slide-left .myInform .others .others_detail{
+			height:auto;
+			height:1.5rem;
+			/*border-bottom:2px solid #555555;*/
+
+		}
+		.lx-container .lx-box .lx-slide-left .myInform{
+			padding:0.6rem 0 0.9rem;
+		}
+		.lx-container .lx-box .lx-slide-left .myInform .mystore .store_detail{
+			height:1.8rem;
+			border-bottom: 2px solid #555;
+		}
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .others .others_detail li{
+		height:0.5rem;
+		text-align: center;
+		margin:0.08rem 0 ;
+		line-height: 0.5rem;
+		font-size: 0;
+	}
+
+	.lx-container .lx-box .lx-slide-left .myInform .others .others_detail li a{
+		font-size: 14px;
+		color:#FFF;
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .out{
+		text-align: center;
+		color:#fff;
+
+		height:1rem;
+		line-height: 0.6rem;
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .out a{
+		color:#FFF;
+		font-size: 18px;
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .social_soft{
+		width:100%;
+		height:50px;
+		display: flex;
+		box-sizing:border-box;
+		padding:0 0.5rem;
+		justify-content:space-between;
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .social_soft span{
+		flex:auto;
+		font-size: 24px;
+		text-align: center;
+		line-height: 50px;
+	}
+	.lx-container .lx-box .lx-slide-left .myInform .social_soft span a{
+		color:#FFF;
+		font-size: 24px;
+	}
+	.lx-container .lx-box .mask{
+		position:absolute;
+		left:3.75rem;
+		top:0;
+		width:3.75rem;
+		height:100%;
+		display: none;
+		z-index: 99999;
+	}
+	.lx-container .lx-box .lx-slide-right{
+		width:7.5rem;
+		position: relative;
+		height:100%;
+		float:left;
+		overflow: hidden;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

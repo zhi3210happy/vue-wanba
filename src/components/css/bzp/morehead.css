@@ -1,0 +1,23 @@
+.head{
+    width:100%;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    height: 0.88rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.head a img{
+    width:0.42rem;
+    height:0.42rem;
+}
+.head span{
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #191919;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}

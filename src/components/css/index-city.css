@@ -1,0 +1,212 @@
+*{
+	margin: 0;
+	padding:0;
+	list-style:none;
+	font-family:"微软雅黑";
+	box-sizing:border-box;	
+}
+a{
+	text-decoration: none;
+	-webkit-tap-hightlight-color:rgba(0,0,0,0);
+}
+img{
+	border: 0;
+}
+body{
+	background: #EFEFEF;
+}
+/*开始*/
+
+section{
+	height: 100%;	
+}
+/*导航开始*/
+  .banner-jp {
+    width: 100%;
+    height:0.9rem;
+    -webkit-background-size: cover !important;
+    background-size: cover !important;
+    padding: 0.01rem;
+  }
+  .banner-jp nav {
+    width: 100%;
+    height: 0.88rem;
+    padding: 0.01rem 0.1rem;
+    display: block;
+    text-align: center;
+    background: #fff;
+  }
+  .banner-jp nav .back {
+    width: 0.48rem;
+    height: 0.48rem;
+    border-radius: 50%;
+    -webkit-background-size: 0.48rem !important;
+    background-size: 0.48rem !important;
+    margin: 0.22rem 0;
+    display: block;
+    float: left;
+  }
+  .city-sousuo{
+  	width: 5.8rem;
+  	height: 0.54rem;
+  	margin: 0 auto;
+  	margin-top: 0.2rem; 
+    border-radius: 0.3rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 0.02rem 0.02rem #ccc;
+    position: relative;
+    background: #F2F2F2;
+    float: left;
+    margin-left:0.25rem;
+  }
+  .city-sousuo input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline:none;
+    border: 0;  
+    padding-left: 0.15rem;
+  }
+  .city-yuyin{
+    width: 0.7rem;
+    height: 0.54rem;
+    background: #DADBDB;
+    position: absolute;
+    right: 0;
+    top:0;
+  }
+  .city-yuyin .jp-hua{
+    display: block;
+    width: 0.25rem;
+    height: 0.27rem;
+    margin: 0 auto;
+    margin-top: 0.15rem;
+  }
+  .city-yuyin img{
+    width: 100%;
+  }
+  .banner-jp nav .jp-sou {
+    width: 0.48rem;
+    height: 0.48rem;
+    border-radius: 50%;
+    -webkit-background-size: 0.48rem !important;
+    background-size: 0.48rem !important;
+    display: block;
+    margin: 0.22rem 0;
+    float: right;
+  }
+/*导航结束*/
+
+/*定位开始*/
+.city-dingwei{
+  width: 100%;
+  height: 1rem; 
+  margin-top: 0.1rem;
+}
+.city-dwztk{
+  width: 7.07rem;
+  height: 1rem;
+  margin: 0 auto;
+}
+.city-dwzt{
+  height: 0.55rem;
+}
+.city-dwzt h2{
+  font-size: 18px;
+  float: left;
+  line-height: 0.55rem;
+  font-weight: normal;
+}
+.city-dwzt img{
+  float: left;
+  margin-top: 0.3rem;
+  margin-left: 0.05rem;
+}
+.city-dwztk h3{
+  font-size: 13px;
+  float: left;
+  margin-top: -0.1rem;
+  font-weight: normal;
+
+}
+.city-dwztk h3 span{
+  color:#FFA200;
+}
+/*定位结束*/
+/*太原开始*/
+.city-taiyuan{
+  width: 100%;
+  height: 0.57rem;
+  background: #fff;
+}
+.city-tydw{
+  width: 7.07rem;
+  height: 1rem;
+  margin: 0 auto;
+}
+.city-tydw .city-wei{
+  width: 0.25rem;
+  height: 0.25rem;
+  float: left;
+  display: block;
+  margin-top: 0.15rem;
+  margin-right: 0.05rem;
+}
+.city-tydw img{
+  height: 100%;
+}
+.city-tydw h2{
+  font-size: 18px;
+  line-height:0.55rem;
+  font-weight:normal;
+
+}
+/*太原结束*/
+/*热门城市开始 */
+.city-recs{
+  width: 7.5rem;
+  height: 3.8rem;
+}
+.city-hotlist{
+  width: 7.07rem;
+  height: 2.7rem;
+  margin: 0 auto;
+}
+.city-hotlist li{
+  width:2.16rem;
+  height: 0.8rem;
+  background: #fff; 
+  border-radius: 0.1rem;
+  margin-right: 0.29rem;
+  margin-bottom: 0.15rem;
+  float: left;
+  font-size: 15px;
+  text-align: center;
+  line-height: 0.8rem;
+}
+.city-hotlist li:nth-child(3n){
+  margin-right:0;
+}
+
+
+.city-morelist{
+  width: 7.07rem;
+  height: 2.7rem;
+  margin: 0 auto;
+}
+.city-morelist li{
+  width:0.99rem;
+  height:0.99rem;
+  border-radius: 0.1rem;
+  background: #fff; 
+  margin-right: 0.22rem;
+  margin-bottom: 0.15rem;
+  float: left;
+  font-size: 15px;
+  text-align: center;
+  line-height: 0.9rem;
+}
+
+.city-morelist li:nth-child(6n){
+  margin-right:0;
+}

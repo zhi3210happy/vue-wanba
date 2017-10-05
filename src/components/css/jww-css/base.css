@@ -1,0 +1,11 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,input,button,i,em{
+	margin:0;
+	padding:0;
+	list-style: none;
+	border:0;
+	outline: none;
+}
+a{
+	text-decoration: none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}

@@ -1,0 +1,417 @@
+body{
+	font-family:Helvetica,sans-serif;
+	background:#EFEFEF;
+}
+a{
+	color:#141414;
+}
+.index-travels{
+	height:100%;
+	overflow:scroll;
+}
+@media screen and (min-width:320px){
+	body{
+		font-size:14px;
+	}
+}
+@media screen and (max-width:320px){
+	body{
+		font-size:12px;
+	}
+}
+/*头部------------------------------------*/
+.index-travels header{
+	position:relative;
+	width:100%;
+	height:.94rem;
+	border-bottom:1px solid #F1F1F1;
+	padding:.25rem;
+	box-sizing:border-box;
+	background:#fff;
+}
+.index-travels header .back{
+	display:block;
+	width:.44rem;
+	height:.44rem;
+}
+.index-travels header .back img{
+	width:99%;
+}
+.find{
+	text-align:center;
+	height:100%;
+	margin:0 auto;
+	margin-right:.41rem;
+}
+.index-travels header .back:last-child{
+	position:absolute;
+	right:.25rem;
+	top:.25rem;
+	background:url(../../images/jww-images/13.png) no-repeat center center/cover;
+}
+.find img{
+	width:100%;
+	display:block;
+	position:absolute;
+	top:0;
+	bottom:0;
+	margin:auto;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+/*banner---------------------------------------------*/
+.index-travels .banner img{
+	width:100%;
+} 
+
+/*城市介绍----------------------------------------------*/
+.index-travels .product{
+	height:auto;
+	background:#fff;
+	padding:.25rem;
+	box-sizing:border-box;
+	border-radius:.1rem;
+	margin-bottom:.1rem;
+	overflow:hidden;
+	transition:all .5s;
+}
+.index-travels .product .product-top{
+	height:auto;
+	overflow:hidden;
+	color:#181818;
+	font-weight:bold;
+}
+.index-travels .product .product-margin{
+	height:auto;
+	margin-bottom:.23rem;
+}
+.index-travels .product .link{
+	display:block;
+	width:.72rem;
+	position:absolute;
+	top:2rem;
+	right:0;
+}
+.index-travels .product .link img{
+	width:100%;
+}
+.index-travels .product .product-margin span{
+	color:#FD1440;
+	font-weight:bold;
+}
+.index-travels .product .product-margin .margin{
+	text-align:center;
+	background:#74ECFE;
+	color:#fff;
+	padding:.04rem .1rem;
+	box-sizing:border-box;
+	margin-right:.08rem;
+	display:inline-block;
+}
+.index-travels .product .product-top div{
+	width:1.73rem;
+	height:.52rem;
+	background:#FB9138;
+	color:#fff;
+	text-align:center;
+	line-height:.52rem;
+}
+@media screen and (min-width:320px) {
+	.index-travels .product .product-top div{
+		font-size:12px;
+	}
+	.index-travels .product .product-top div span{
+		font-size:16px;
+	}
+}
+@media screen and (max-width:320px) {
+	.index-travels .product .product-top div{
+		font-size:10px;
+	}
+	.index-travels .product .product-top div span{
+		font-size:14px;
+	}
+}
+.index-travels .product .product-top div span{
+	font-weight:bold;
+}
+/*出发日期--------------------------------------------*/
+.index-travels .product .date{
+	height:.5rem;
+}
+.index-travels .product .date img{
+	height:100%;
+}
+.index-travels .product .date-top{
+	padding-right:.4rem;
+	box-sizing:border-box;
+	height:auto;
+	overflow:hidden;
+}
+.index-travels .product .date-top .top-left{
+	width:25%;
+	padding-right:.14rem;
+	padding-top:.14rem;
+	box-sizing:border-box;
+}
+.index-travels .product .date-top .top-left span{
+	width:100%;
+	height:auto;
+	border:1px solid #FA1D1D;
+	box-sizing:border-box;
+	display:block;
+	text-align:center;
+	line-height:.3rem;
+	color:#212121;
+	padding:.05rem .05rem;
+}
+.index-travels .product .date-top .top-left span i{
+	color:#FD1440;
+}
+@media screen and (min-width:320px) {
+	.index-travels .product .date-top .top-left span{
+		font-size:.14rem;
+	}
+}
+@media screen and (max-width:320px) {
+	.index-travels .product .date-top .top-left span{
+		font-size:.10rem;
+	}
+}
+/*产品品牌开始--------------------------------------------*/
+.index-travels .number{
+	width:100%;
+	color:#181818;
+	margin-top:.1rem;
+	margin-bottom:.1rem;
+	line-height:.4rem;
+	overflow:hidden;
+}
+.index-travels .product .numbers{
+	width:100%;
+	margin-top:.2rem;
+}
+.index-travels .product .numbers .numbers-left{
+	width:50%;
+	height:.35rem;
+	margin-bottom:.2rem;
+}
+.index-travels .product .numbers .numbers-left img{
+	height:70%;
+}
+.more{
+	width:2.41rem;
+	height:.44rem;
+	background:#14B3FD;
+	color:#fff;
+	text-align:center;
+	line-height:.44rem;
+	border-radius:.3rem;
+	font-size:10px;
+	margin:0 auto;
+	transition:all .5s;
+	display:block;
+	position:absolute;
+	bottom:.15rem;
+	left:0;
+	right:0;
+	margin:auto;
+}
+/*行程安排----------------------------------------------*/
+.product{
+	display:block;
+}
+.index-travels .product .arrang{
+	height:auto;
+	padding:.26rem;
+	box-sizing:border-box;
+	overflow:hidden;
+}
+.index-travels .product .arrang .a{
+	width:50%;
+}
+.index-travels .product .arrang .a span{
+	display:inline-block;
+	line-height:.6rem;
+}
+.index-travels .product .sundays{
+	height:auto;
+	width:100%;
+}
+.index-travels .product .sundays .big{
+	transition:all .5s;
+	height:auto;
+	width:200%;
+}
+.index-travels .product .sundays .big .sunday{
+	width:50%;
+	height:auto;
+	box-sizing:border-box;
+}
+.index-travels .product .sunday .sunday-top{
+	width:25%;
+	padding-right:.21rem;
+	box-sizing:border-box;
+	margin-top:.2rem;
+	margin-bottom:.25rem;
+}
+.index-travels .product .sunday .sunday-top span{
+	box-sizing:border-box;
+	background:#74ECFE;
+	color:#fff;
+	text-align:center;
+	border-radius:.3rem;
+	height:.4rem;
+}
+@media screen and (min-width:320px) {
+	.index-travels .product .sunday .sunday-top span{
+		padding:.1rem .18rem;
+	}
+}
+@media screen and (max-width:320px) {
+	.index-travels .product .sunday .sunday-top span{
+		padding:.1rem .19rem;
+	}
+}
+.index-travels .product .sunday .sunday-top:nth-child(4){
+	padding-right:0;
+}
+.index-travels .product .sunday .once{
+	padding-left:.29rem;
+	box-sizing:border-box;
+	border-left:1px dashed #525252;
+	margin-bottom:.6rem;
+}
+.index-travels .product .sunday .once .ding{
+	width:.23rem;
+	height:.3rem;
+	position:absolute;
+	top:-.18rem;
+	left:-.13rem;
+}
+.index-travels .product .sunday .once .ding img{
+	width:100%;
+}
+.index-travels .product .sunday .once .images{
+	position:relative;
+	margin-bottom:.28rem;
+}
+.index-travels .product .sunday .once .images span{
+	display:block;
+	height:.41rem;
+	width:100%;
+	background:rgba(108,108,108,.5);
+	position:absolute;
+	bottom:.09rem;
+	text-align:center;
+	color:#fff;
+	font-size:12px;
+}
+.index-travels .product .sunday .once .images img{
+	width:100%;
+}
+.index-travels .product .sunday .once .number div{
+	width:.22rem;
+	position:absolute;
+	bottom:0;
+	left:-.43rem;
+}
+.index-travels .product .sunday .once .number div img{
+	width:100%;
+}
+/*费用说明-----------------------------------------------*/
+.index-travels .product .numbered span{
+	height:100%;
+	overflow:hidden;
+}
+/*产品推荐----------------------------------------------*/
+.index-travels .product .fen{
+	height:auto;
+	overflow:hidden;
+}
+.index-travels .product .fen .fens{
+	display:block;
+	width:48%;
+	height:4.37rem;
+	margin-top:.27rem;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:.1rem;
+	overflow:hidden;
+	margin-right:.1rem;
+	overflow:hidden;
+}
+.index-travels .product .fen .fens img{
+	width:100%;
+}
+.index-travels .product .fen .fens:nth-child(2n){
+	margin-right:0;
+	margin-left:.1rem;
+}
+.index-travels .product .fen .fens-top{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:auto;
+	padding:.1rem;
+	box-sizing:border-box;
+	background:rgba(61,58,51,0.5);
+	border-radius:0 0 .1rem .1rem;
+}
+.index-travels .product .fen .fens-top .jp{
+	color:#fff;
+	font-size:.12rem;
+	text-overflow:ellipsis;
+	-webkit-line-clamp:2;
+	display:-webkit-box;
+	overflow:hidden;
+	-webkit-box-orient:vertical;
+	margin-bottom:.1rem;
+}
+.index-travels .product .fen .fens .fens-top .rmb{
+	width:1.73rem;
+	height:.52rem;
+	background:#FB9138;
+	color:#fff;
+	text-align:center;
+	line-height:.52rem;
+}
+@media screen and (min-width:320px) {
+	.index-travels .product .fen .fens .fens-top .rmb{
+		font-size:12px;
+	}
+	.index-travels .product .fen .fens .fens-top .rmb span{
+		font-size:16px;
+	}
+}
+@media screen and (max-width:320px) {
+	.index-travels .product .fen .fens .fens-top .rmb{
+		font-size:10px;
+	}
+	.index-travels .product .fen .fens .fens-top .rmb span{
+		font-size:14px;
+	}
+}
+.index-travels .product .fen .fens .fens-top .rmb span{
+	font-weight:bold;
+}
+/*立即预定-------------------------------------------------------*/
+.index-travels .reservations{
+	padding:.16rem .53rem;
+	box-sizing:border-box;
+	background:#fff;
+}
+.index-travels .reservations a{
+	display:block;
+	width:6.48rem;
+	height:.69rem;
+	background:#FB9318;
+	color:#fff;
+	text-align:center;
+	line-height:.69rem;
+	border-radius:.1rem;
+}

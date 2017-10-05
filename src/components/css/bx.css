@@ -1,0 +1,242 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing:border-box;
+	text-decoration: none;
+	font-family: Helvetica;
+}
+body{
+	width: 100%;
+	/*overflow: hidden;*/
+}
+.bx{
+	width: 100%;
+	height: auto;
+	background: #EFEFEF;
+	position: relative;
+}
+/* ······································· */
+/* ······································· */
+/* ······································· */
+				/*header*/
+.bx-header{
+	width: 100%;
+	height: 0.88rem;
+	float: left;
+	background: #FEFCFC;
+	border-bottom: 1px solid #EFEFEF;
+}
+.bx-header-center{
+	width: 7rem;
+	height: 100%;
+	margin: 0 auto;
+	/*background: yellow;*/
+	position: relative;
+}
+.header-cen{
+	width: 100%;
+	height: 0.46rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	/*background: red;*/
+	color: #1C1C1C;
+	font-size: 12px;
+	text-align: center;
+	line-height: 0.48rem;
+}
+
+.cen-img{
+	width: 0.44rem;
+	height: 0.44rem;
+	float: left;
+	/*background: url(../images/2017-03-18_171957.png)center center no-repeat /cover;*/
+}
+.cen-img img{
+	width: 100%;
+	height: 100%;
+}
+/* ······································· */
+/* ······································· */
+/* ······································· */
+		/*banner*/
+.bx-banner{
+	width: 100%;
+	height: 3.21rem;
+	float: left;
+	background: #FEFFFF;
+}
+.banner-center{
+	width: 7rem;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.banner-cen{
+	width: 100%;
+	height: 2.8rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	/*background:orange;*/
+}
+.can{
+	width: 100%;
+	height: 0.5rem;
+	float: left;
+	border-bottom: 1px solid #E2E2E2;
+}
+.cen{
+	width: 100%;
+	height: 0.5rem;
+	float: left;
+	border-bottom: 1px solid #E2E2E2;
+}
+.cxn{
+	width: 100%;
+	height: 0.5rem;
+	float: left;
+	border-bottom: 1px solid #E2E2E2;
+}
+.can span:nth-child(1){
+	color: #2D2D2D;
+	font-size: 12px;
+	line-height: 0.5rem;
+	font-weight: bold;
+}
+.can span:nth-child(2){
+	color: #FD1440;
+	font-size: 12px;
+	line-height: 0.5rem;
+}
+.cen span{
+	color: #2D2D2D;
+	font-size: 12px;
+	line-height: 0.5rem;
+	font-weight: bold;
+}
+.cxn span:nth-child(1){
+	color: #525252;
+	line-height: 0.5rem;
+	font-size: 12px;
+	font-weight: bold;
+}
+.cxn span:nth-child(2){
+	color: #525252;
+	line-height: 0.5rem;
+	font-size: 12px;
+}
+.cbn{
+	width: 100%;
+	height: 1.3rem;
+	float: left;
+	/*background: blue;*/
+}
+.cbn-left span{
+	color: #525252;
+	line-height: 0.5rem;
+	font-size: 12px;
+	font-weight: bold;
+}
+.cbn-right p{
+	color: #525252;
+	/*line-height: 0.5rem;*/
+	font-size: 12px;
+	float: left;
+	margin-top: 2.5px;
+	line-height: 20px;
+}
+.cbn-left{
+	width: auto;
+	float: left;
+	height: 100%;
+	/*background: red;*/
+}
+.cbn-right{
+	width: 5.5rem;
+	float: left;
+	height: 100%;
+	/*background: yellow;*/
+}
+.bx-kbc{
+	width: 100%;
+	height: 0.1rem;
+	float: left;
+	background: #EFEFEF;
+}
+/* ······································· */
+/* ······································· */
+/* ······································· */
+		/*投保须知*/
+.bx-tbxz{
+	width: 100%;
+	height: 7.2rem;
+	/*background: red;*/
+	float: left;
+}
+.bx-center{
+	width: 7rem;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.bx-center-center{
+	width: 100%;
+	height: 6.6rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	/*background: yellow;*/
+}
+.tbxz-left{
+	width: auto;
+	height: 100%;
+	float: left;
+}
+.tbxz-left span{
+	color: #525252;
+	line-height: 0.5rem;
+	font-size: 12px;
+	/*font-weight: bold;*/
+}
+.tbxz-right{
+	width: 5.5rem;
+	height: 100%;
+	float: left;
+	/*background: green;*/
+}
+.tbxz-right span{
+	color: #525252;
+	/*line-height: 0.5rem;*/
+	font-size: 12px;
+	float: left;
+	margin-top: 2.5px;
+	word-break:break-all;
+	word-wrap:break-word;
+	line-height: 20px;
+}
+/* ······································· */
+/* ······································· */
+/* ······································· */
+
+
+
+/* ······································· */
+/* ······································· */
+/* ······································· */
+
+
+
+/* ······································· */
+/* ······································· */
+/* ······································· */

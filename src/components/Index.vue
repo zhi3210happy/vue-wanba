@@ -567,175 +567,153 @@
 
 <script >
 // import './css/index.css'
-import ComFooter from './ComFooter'
+import Vue from "vue";
+import ComFooter from "./ComFooter";
 // import { swiper, swiperSlide } from 'vue-awesome-swiper'
-export default {
-    data() {
-        return {
-            begin: {
-                speed: 300, //设置滑动速度
-                autoplay: 2000,//可选选项，自动滑动
-                pagination: '.swiper-pagination',
-                threshold: 100,
-                observer: true,
-                observeParents: true,
-                autoplayDisableOnInteraction: false,
-                ininialSlide: 0, //起始图片切换的索引位置（起始从0开始，默认为0）
-            },
-            banner: {
-                autoplay: 2000,
-                loop: true,
-                observer: true,
-                observeParents: true,
-                effect: 'flip',
-                flip: {
-                    slideShadows: true,
-                    limitRotation: true,
-                },
-                // 如果需要分页器
-                pagination: '.swiper-pagination'
-            },
-            hotreco: {
-                pagination: '.swiper-pagination',
-                slidesPerView: 1.5,
-                paginationClickable: true,
-                spaceBetween: 34
-            },
-            cont: [1, 2, 3, 4, 5],
-            img: [1, 2, 3]
+import Component from "vue-class-component";
+@Component({
+  components: {
+    ComFooter
+  }
+})
+export default class Index extends Vue {
+  begin = {
+    speed: 300, //设置滑动速度
+    autoplay: 2000, //可选选项，自动滑动
+    pagination: ".swiper-pagination",
+    threshold: 100,
+    observer: true,
+    observeParents: true,
+    autoplayDisableOnInteraction: false,
+    ininialSlide: 0 //起始图片切换的索引位置（起始从0开始，默认为0）
+  };
+  banner = {
+    autoplay: 2000,
+    loop: true,
+    observer: true,
+    observeParents: true,
+    effect: "flip",
+    flip: {
+      slideShadows: true,
+      limitRotation: true
+    },
+    // 如果需要分页器
+    pagination: ".swiper-pagination"
+  };
+  hotreco = {
+    pagination: ".swiper-pagination",
+    slidesPerView: 1.5,
+    paginationClickable: true,
+    spaceBetween: 34
+  };
+  cont = [1, 2, 3, 4, 5];
+  img = [1, 2, 3];
+  mounted() {
+    this.start();
+    // this.lunbo();
+    this.autoTop();
+    // this.setData()
+    this.qiehuan();
+  }
+
+  start() {
+    var shanPing = document.querySelector(".shanping");
+    var dians = document.querySelector(".dians");
+    var t3 = null;
+    var bian = true;
+    var t2 = window.setInterval(function() {
+      var b1 = document.querySelector(".swiper-slide-active");
+      var b2 = document.querySelector(".sp-pb");
+      if (b1 === b2) {
+        dians.style.display = "none";
+        if (bian == true) {
+          bian = false;
+          t3 = window.setTimeout(function() {
+            //循环，触摸跳的地址
+            shanPing.style.display = "none";
+            // location.href="shouye.html";
+          }, 2200);
         }
-    },
-    mounted() {
-        this.start()
-        // this.lunbo();
-        this.autoTop()
-        // this.setData()
-        this.qiehuan()
-    },
-    components: {
-        ComFooter
-        // swiper, swiperSlide
-    },
-    methods: {
-        start() {
-            var shanPing = document.querySelector('.shanping');
-            var dians = document.querySelector('.dians');
-            var t3 = null;
-            var bian = true;
-            var t2 = window.setInterval(function() {
-                var b1 = document.querySelector('.swiper-slide-active');
-                var b2 = document.querySelector('.sp-pb');
-                if (b1 === b2) {
-                    dians.style.display = 'none';
-                    if (bian == true) {
-                        bian = false;
-                        t3 = window.setTimeout(function() {
-                            //循环，触摸跳的地址
-                            shanPing.style.display = 'none';
-                            // location.href="shouye.html";
-                        }, 2200);
-                    }
-                } else {
-                    dians.style.display = 'block';
-                    window.clearInterval(t3);
-                    bian = true;
-                }
-            }, 20);
-            var tzhehes = document.querySelector('.tzs');
-            var tzhehe1s = document.querySelector('.tzs a');
-            tzhehes.addEventListener('touchstart', function() {
-                window.clearInterval(t2);
-                window.clearInterval(t3);
-                // 点击跳的地址
-                shanPing.style.display = 'none';
-                // location.href="shouye.html";
-            })
+      } else {
+        dians.style.display = "block";
+        window.clearInterval(t3);
+        bian = true;
+      }
+    }, 20);
+    var tzhehes = document.querySelector(".tzs");
+    var tzhehe1s = document.querySelector(".tzs a");
+    tzhehes.addEventListener("touchstart", function() {
+      window.clearInterval(t2);
+      window.clearInterval(t3);
+      // 点击跳的地址
+      shanPing.style.display = "none";
+      // location.href="shouye.html";
+    });
 
-            if (sessionStorage.getItem('lei')) {
-                shanPing.style.display = 'none';
-            } else {
-                sessionStorage.setItem('lei', 'ss')
-
-            }
-
-        },
-        //响应式自适应fontsize基准大小
-
-        // lunbo() {
-        //     const banner = new Swiper('.index-banner', {
-        //         autoplay: 3000,
-        //         loop: true,
-        //         // 如果需要分页器
-        //         pagination: '.swiper-pagination'
-        //     })
-
-        //     const hotreco = new Swiper('.index-fxjc .cont', {
-        //         pagination: '.swiper-pagination',
-        //         slidesPerView: 1.5,
-        //         paginationClickable: true,
-        //         spaceBetween: 34
-        //     });
-        // },
-        // setData(){
-        //    var mydata=Object.keys(document.querySelector('.swiper-pagination').dataset)[0]
-        //    var myspan=document.querySelectorAll('.swiper-pagination span')
-        //    myspan.forEach(function(element) {
-        //        element.setAttribute(`data-${mydata}`,'')
-        //    });
-        // },
-        autoTop() {
-            /*总父容器高度*/
-            function boxH() {
-                let index_box = document.querySelector('.index-box');
-                let index_footer = document.querySelector('.index-footer');
-                index_box.style.height = document.body.clientHeight - index_footer.clientHeight + 'px';
-                index_box.addEventListener('scroll', () => {
-                    let index_header = document.querySelector('.index-header');
-                    let index_list = document.querySelector('.index-list');
-                    if (index_box.scrollTop >= index_list.offsetTop) {
-                        index_header.style.background = 'rgba(0,0,0,0.8)'
-                    } else {
-                        index_header.style.background = 'rgba(0,0,0,0)'
-                    }
-                });
-            }
-            boxH();
-            /*顶栏颜色的变化*/
-            window.addEventListener('resize', () => {
-                boxH();
-            });
-        },
-        /*玩吧品牌*/
-        qiehuan() {
-            let wbpp = document.querySelector('.index-wbpp');//获得大容器
-            let list = document.querySelectorAll('.index-wbpp .list li');//获得上方按钮
-            let cont = document.querySelector('.index-wbpp .cont');//获得内容区域父容器
-            let contFu = document.querySelector('.index-wbpp .cont .fu');
-            let contList = document.querySelectorAll('.index-wbpp .cont ul');//获得选项卡
-            // list.length
-            function cws() {
-                contFu.style.width = cont.clientWidth * list.length + 'px';
-                for (let i = 0; i < contList.length; i++) {
-                    contList[i].style.width = cont.clientWidth + 'px';
-                }
-            };
-            cws();
-            window.addEventListener('resize', () => {
-                cws();
-            })
-            for (let i = 0; i < list.length; i++) {
-                list[i].index = i;
-                list[i].onclick = function(e) {
-                    for (let j = 0; j < list.length; j++) {
-                        list[j].classList.remove('active');
-                    }
-                    this.classList.add('active');
-                    contFu.style.cssText = "transform:translate3d(" + -cont.clientWidth * this.index + "px,0,0);-webkit-transform:translate3d(" + -cont.clientWidth * this.index + "px,0,0)";
-                    cws();
-                }
-            }
-        }
+    if (sessionStorage.getItem("lei")) {
+      shanPing.style.display = "none";
+    } else {
+      sessionStorage.setItem("lei", "ss");
     }
+  }
+  autoTop() {
+    /*总父容器高度*/
+    function boxH() {
+      let index_box = document.querySelector(".index-box");
+      let index_footer = document.querySelector(".index-footer");
+      index_box.style.height =
+        document.body.clientHeight - index_footer.clientHeight + "px";
+      index_box.addEventListener("scroll", () => {
+        let index_header = document.querySelector(".index-header");
+        let index_list = document.querySelector(".index-list");
+        if (index_box.scrollTop >= index_list.offsetTop) {
+          index_header.style.background = "rgba(0,0,0,0.8)";
+        } else {
+          index_header.style.background = "rgba(0,0,0,0)";
+        }
+      });
+    }
+    boxH();
+    /*顶栏颜色的变化*/
+    window.addEventListener("resize", () => {
+      boxH();
+    });
+  }
+  /*玩吧品牌*/
+  qiehuan() {
+    let wbpp = document.querySelector(".index-wbpp"); //获得大容器
+    let list = document.querySelectorAll(".index-wbpp .list li"); //获得上方按钮
+    let cont = document.querySelector(".index-wbpp .cont"); //获得内容区域父容器
+    let contFu = document.querySelector(".index-wbpp .cont .fu");
+    let contList = document.querySelectorAll(".index-wbpp .cont ul"); //获得选项卡
+    // list.length
+    function cws() {
+      contFu.style.width = cont.clientWidth * list.length + "px";
+      for (let i = 0; i < contList.length; i++) {
+        contList[i].style.width = cont.clientWidth + "px";
+      }
+    }
+    cws();
+    window.addEventListener("resize", () => {
+      cws();
+    });
+    for (let i = 0; i < list.length; i++) {
+      list[i].index = i;
+      list[i].onclick = function(e) {
+        for (let j = 0; j < list.length; j++) {
+          list[j].classList.remove("active");
+        }
+        this.classList.add("active");
+        contFu.style.cssText =
+          "transform:translate3d(" +
+          -cont.clientWidth * this.index +
+          "px,0,0);-webkit-transform:translate3d(" +
+          -cont.clientWidth * this.index +
+          "px,0,0)";
+        cws();
+      };
+    }
+  }
 }
 </script>
 

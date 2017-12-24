@@ -1,24 +1,28 @@
-<template>
-  <div id="app">
-    <router-view></router-view>
-  </div>
-</template>
 
 <script>
-import './components/css/swiper.min.css'
-export default {
-  name: 'app',
+import Vue from "vue";
+import "./components/css/swiper.min.css";
+import Component from "vue-class-component";
+@Component
+export default class App extends Vue {
   mounted() {
     this.rem();
-  },
-  methods: {
-    rem() {
-      const gaowi = 750;
-      const keshi = document.documentElement.clientWidth;
-      let fonts = keshi / gaowi * 100;
-      document.documentElement.style.fontSize = fonts + 'px'
-      window.onresize = this.rem;
-    },
+  }
+  rem() {
+    document.documentElement.style.fontSize =
+      document.documentElement.clientWidth / 750 * 100 + "px";
+    window.onresize = this.rem;
+  }
+  render(h) {
+    return h(
+      'div',
+      {
+        attrs:{
+          id:'app'
+        }
+      },
+      [h('router-view')]
+    );
   }
 }
 </script>
@@ -56,32 +60,30 @@ a {
   text-decoration: none;
 }
 
-
 body,
 html {
   height: 100%;
-  background: #EFEFEF;
+  background: #efefef;
 }
-#app{
+#app {
   height: 100%;
-  width: 100%; 
+  width: 100%;
 }
 body {
-
   position: relative;
 }
 </style>
 
 <style>
- .swiper-pagination .swiper-pagination-bullet {
-  width: .24rem;
-  height: .05rem;
-  background: #BFBFBF;
+.swiper-pagination .swiper-pagination-bullet {
+  width: 0.24rem;
+  height: 0.05rem;
+  background: #bfbfbf;
   opacity: 1;
   margin: 0;
-  margin-right: .1rem;
+  margin-right: 0.1rem;
 }
 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #FEFE00;
+  background: #fefe00;
 }
 </style>

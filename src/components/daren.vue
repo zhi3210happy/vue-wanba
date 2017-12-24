@@ -1,7 +1,4 @@
-<template>
-    <com-daren :options="options">
-    </com-daren>
-</template>
+
 <script>
 import ComDaren from './ComDaren'
 export default {
@@ -22,8 +19,8 @@ export default {
             }
         }
     },
-    components: {
-        ComDaren
+    render(){
+         <ComDaren options={options}/>
     }
 }
 </script>

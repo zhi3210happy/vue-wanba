@@ -103,13 +103,13 @@ export default {
 				{ name: 'admin', pad: 12345678 }
 			]
 			var data = { yi: false, er: false }
-			var dl1 = $(".dl-zhong>.dl-input>input");
-			var dl2 = $$(".dl-zhong>.dl-input>input")[1];
-			var dl3 = $$(".dl-zhong>.dl-input>input")[2];
-			var image1 = $$(".dl-zhong>.dl-input>.you>img")[0];
-			var image2 = $$(".dl-zhong>.dl-input>.you>img")[1];
-			var img1 = $$(".dl-zhong>.img>img")[0];
-			var img2 = $$(".dl-zhong>.img>img")[1];
+			var dl1 =this.$(".dl-zhong>.dl-input>input");
+			var dl2 = this.$$(".dl-zhong>.dl-input>input")[1];
+			var dl3 = this.$$(".dl-zhong>.dl-input>input")[2];
+			var image1 = this.$$(".dl-zhong>.dl-input>.you>img")[0];
+			var image2 = this.$$(".dl-zhong>.dl-input>.you>img")[1];
+			var img1 = this.$$(".dl-zhong>.img>img")[0];
+			var img2 = this.$$(".dl-zhong>.img>img")[1];
 
 			dl3.style.display = 'none';
 			image1.addEventListener('touchend', function() {
@@ -202,7 +202,7 @@ export default {
 				}
 			}
 
-			var hua = $$('.denglu1 .dl-xia .hua');
+			var hua = this.$$('.denglu1 .dl-xia .hua');
 			for (var i = 0; i < hua.length; i++) {
 				hua[i].addEventListener('touchend', function() {
 					if (this.className == 'hua') {
@@ -218,9 +218,9 @@ export default {
 			var num1 = 0;
 			var num2 = 1;
 			var num3 = 2;
-			var div = $$('.denglu1 .dl-bottom .btn1 div');
-			var btn1 = $('.denglu1 .dl-bottom .btn1');
-			var btn2 = $('.denglu1 .dl-bottom .btn2');
+			var div = this.$$('.denglu1 .dl-bottom .btn1 div');
+			var btn1 =this.$('.denglu1 .dl-bottom .btn1');
+			var btn2 =this.$('.denglu1 .dl-bottom .btn2');
 			var that=this;
 			btn1.addEventListener('click', function() {
 				if (data.yi && data.er) {
@@ -248,13 +248,6 @@ export default {
 					}, 1000)
 				}
 			})
-
-			function $(obj) {
-				return document.querySelector(obj);
-			}
-			function $$(obj) {
-				return document.querySelectorAll(obj);
-			}
 		}
 	}
 }

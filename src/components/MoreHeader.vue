@@ -1,17 +1,32 @@
-<template>
-    <header class="head">
-        <router-link :to="route">
-            <img src="./images/yi-back.png" alt="">
-        </router-link>
-        <span>{{title}}</span>
-    </header>
-</template>
+
 <style src="./css/bzp/morehead.css" scoped>
 
 </style>
 
 <script>
 export default {
-  props:['title','route']
-}
+  props:['route','title'],
+  render(h){
+    h(
+      'header',
+      {
+       'class': "head"
+      },
+      [
+        h('router-link', {
+          props: {
+            to: this.route
+          }
+          },
+         [h('img',{
+            attrs:{
+                src:'./images/yi-back.png'
+            }
+          })] 
+        ),
+        [h('span',this.title)]
+      ]
+    );
+  }
+};
 </script>

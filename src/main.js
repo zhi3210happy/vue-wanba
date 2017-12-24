@@ -14,9 +14,9 @@ Vue.prototype.setInterval
 // 登录验证
 router.beforeEach((to, from, next) => {
   if (to.path === "/login") {
-    if(!store.state.user){
+    if (!store.state.user) {
       next()
-    }else{
+    } else {
       next('/aboutme')
     }
   } else {
@@ -29,6 +29,12 @@ router.beforeEach((to, from, next) => {
 })
 
 
+Vue.prototype.$ = function $(obj) {
+  return document.querySelector(obj);
+}
+Vue.prototype.$$ = function $$(obj) {
+  return document.querySelectorAll(obj);
+}
 new Vue({
   el: '#app',
   store,

@@ -99,8 +99,7 @@ export default {
 		...mapMutations(['login']),
 		start() {
 			var arr = [
-				{ name: 'admin', pad: 12345678 },
-				{ name: 'admin', pad: 12345678 }
+				{ name: 'admin', pad: 'admin' }
 			]
 			var data = { yi: false, er: false }
 			var dl1 =this.$(".dl-zhong>.dl-input>input");

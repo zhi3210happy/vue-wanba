@@ -14,13 +14,13 @@ Vue.prototype.setInterval
 // 登录验证
 router.beforeEach((to, from, next) => {
   if (to.path === "/login") {
-    if (!store.state.user) {
+    if (!sessionStorage.getItem('user')) {
       next()
     } else {
       next('/aboutme')
     }
   } else {
-    if (!store.state.user && to.path !== "/") {
+    if (!sessionStorage.getItem('user') && to.path !== "/") {
       next('/login')
     } else {
       next()

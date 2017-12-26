@@ -5,26 +5,30 @@
 
 <script>
 export default {
-  props:['route','title'],
-  render(h){
-    h(
-      'header',
+  props: ["route", "title"],
+  render(h) {
+    return h(
+      "header",
       {
-       'class': "head"
+        class: "head"
       },
       [
-        h('router-link', {
-          props: {
-            to: this.route
-          }
-          },
-         [h('img',{
-            attrs:{
-                src:'./images/yi-back.png'
+        h(
+          "router-link",
+          {
+            props: {
+              to: this.route
             }
-          })] 
+          },
+          [
+            h("img", {
+              attrs: {
+                src: require("./images/yi-back.png")
+              }
+            })
+          ]
         ),
-        [h('span',this.title)]
+        [h("span", this.title)]
       ]
     );
   }

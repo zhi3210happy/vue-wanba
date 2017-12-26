@@ -20,7 +20,7 @@ export default {
         }
     },
     render(){
-         <ComDaren options={options}/>
+       return  <ComDaren options={this.options}/>
     }
 }
 </script>

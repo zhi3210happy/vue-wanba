@@ -39,7 +39,7 @@
         <header class="index-header">
             <nav>
                 <div class="left">
-                    <router-link to="travels1">西安<img src="./images/index-gobottom.png" alt=""></router-link>
+                    <router-link to="PlaneCity">西安<img src="./images/index-gobottom.png" alt=""></router-link>
                 </div>
                 <div class="center">
                     <router-link to="search"><img src="./images/index-search.png" alt=""></router-link>
@@ -581,6 +581,7 @@ export default class Index extends Vue {
     speed: 300, //设置滑动速度
     autoplay: 2000, //可选选项，自动滑动
     pagination: ".swiper-pagination",
+    clickable :true,
     threshold: 100,
     observer: true,
     observeParents: true,
@@ -589,6 +590,7 @@ export default class Index extends Vue {
   };
   banner = {
     autoplay: 2000,
+    clickable :true,
     loop: true,
     observer: true,
     observeParents: true,
@@ -614,6 +616,10 @@ export default class Index extends Vue {
     this.autoTop();
     // this.setData()
     this.qiehuan();
+    const sw=document.getElementsByClassName('swiper-slide')
+
+        sw[0].addEventListener('click',()=>console.log(1231))
+    
   }
 
   start() {
